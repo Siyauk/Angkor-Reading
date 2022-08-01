@@ -1283,12 +1283,7 @@ h1 {
     .home .row ol {
         margin-left: 15rem;
     }
-    .home .row .books-slider .wall {
-        margin-top: -8rem;
-        height: 25rem;
-        display: flex;
-        padding: 6rem 0rem;
-    }
+    
     .home .row-self .books-slider1 .wall {
         width: 100%;
         margin-top: -36rem;
