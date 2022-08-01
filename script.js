@@ -103,10 +103,10 @@ var swiper = new Swiper(".books-slider", {
         disableOnInteraction: false,
     },
     breakpoints: {
-        375: {
+        0: {
             slidesPerView: 1,
         },
-        555: {
+        360: {
             slidesPerView: 2,
             slidesPerView: 3,
         },
