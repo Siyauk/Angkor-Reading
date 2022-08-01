@@ -99,19 +99,20 @@ var swiper = new Swiper(".books-slider", {
     loop: true,
     centeredSlides: true,
     autoplay: {
-        delay: 9500,
+        delay: 7500,
         disableOnInteraction: false,
     },
     breakpoints: {
         0: {
             slidesPerView: 1,
         },
-        360: {
+        428: {
             slidesPerView: 2,
             slidesPerView: 3,
-            
+            slidesPerView: 3,
+            slidesPerView: 3,
         },
-        800: {
+        926: {
             slidesPerView: 4,
             slidesPerView: 5,
         },
