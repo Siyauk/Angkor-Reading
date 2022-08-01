@@ -340,13 +340,6 @@ section {
     transform: scale(.9);
 }
 
-.home .row .books-slider .wall {
-    margin-top: -6rem;
-    height: 20rem;
-    display: flex;
-    padding: 4rem 0rem;
-}
-
 .home .row .content h3 {
     color: var(--black);
     font-size: 3.5rem;
