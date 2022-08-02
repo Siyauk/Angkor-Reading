@@ -1231,7 +1231,7 @@ h1 {
 
 /* media queries  */
 
-@media (max-width:991px) {
+@media (max-width:1280px) {
     html {
         font-size: 55%;
     }
@@ -1243,7 +1243,7 @@ h1 {
     }
 }
 
-@media (max-width:667px) {
+@media (max-width:800px) {
     html {
         scroll-padding-top: 0;
     }
