@@ -129,14 +129,14 @@ var swiper = new Swiper(".books-slider1", {
         disableOnInteraction: false,
     },
     breakpoints: {
-        375: {
+        0: {
             slidesPerView: 1,
         },
-        375: {
+        360: {
             slidesPerView: 2,
             slidesPerView: 3,
         },
-        667: {
+        1280: {
             slidesPerView: 4,
             slidesPerView: 5,
 
@@ -160,13 +160,13 @@ var swiper = new Swiper(".featured-slider", {
         0: {
             slidesPerView: 1,
         },
-        375: {
+        360: {
             slidesPerView: 2,
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
         },
-        667: {
+        1280: {
             slidesPerView: 6,
             slidesPerView: 7,
             slidesPerView: 8,
@@ -189,14 +189,14 @@ var swiper = new Swiper(".arrivals-slider", {
         0: {
             slidesPerView: 0,
         },
-        375: {
+        360: {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
         },
-        667: {
+        1280: {
             slidesPerView: 5,
             slidesPerView: 6,
             slidesPerView: 7,
@@ -220,14 +220,14 @@ var swiper = new Swiper(".arrivals-slider1", {
             slidesPerView: 0,
         },
 
-        428: {
+        360: {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
         },
-        768: {
+        1280: {
             slidesPerView: 5,
             slidesPerView: 6,
             slidesPerView: 7,
@@ -250,10 +250,10 @@ var swiper = new Swiper(".reviews-slider", {
         0: {
             slidesPerView: 1,
         },
-        768: {
+        360: {
             slidesPerView: 2,
         },
-        1024: {
+        1280: {
             slidesPerView: 3,
         },
     },
@@ -272,10 +272,10 @@ var swiper = new Swiper(".blogs-slider", {
         0: {
             slidesPerView: 1,
         },
-        768: {
+        360: {
             slidesPerView: 2,
         },
-        1024: {
+        1280: {
             slidesPerView: 3,
         },
     },
@@ -294,14 +294,14 @@ var swiper = new Swiper(".featured-slider-business ", {
         0: {
             slidesPerView: 0,
         },
-        428: {
+        360: {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
         },
-        768: {
+        1280: {
             slidesPerView: 5,
             slidesPerView: 6,
             slidesPerView: 7,
