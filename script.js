@@ -105,10 +105,11 @@ var swiper = new Swiper(".books-slider", {
     breakpoints: {
         360: {
             slidesPerView: 1,
-        },
-        1280: {
             slidesPerView: 2,
             slidesPerView: 3,
+        },
+        1280: {
+            
             slidesPerView: 4,
             slidesPerView: 5,
             slidesPerView: 6, 
