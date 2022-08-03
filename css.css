@@ -499,8 +499,9 @@ section {
 }
 
 .arrivals .arrivals-slider .image img {
-    height: 15rem;
-    width: 10rem;
+    background-repeat: no-repeat;
+    width:auto;
+    background-size: contain ;
     border-radius: 1rem;
     box-shadow: 1px 2px 5px 0 #e2cb70;
 }
