@@ -194,10 +194,7 @@ var swiper = new Swiper(".arrivals-slider", {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
-            slidesPerView: 4,
-            slidesPerView: 5,
-            slidesPerView: 7,
-            slidesPerView: 8,
+            
         },
         926: {
            
