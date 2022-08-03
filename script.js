@@ -103,9 +103,6 @@ var swiper = new Swiper(".books-slider", {
         disableOnInteraction: false,
     },
     breakpoints: {
-        0: {
-            slidesPerView: 0,
-        },
         360: {
             slidesPerView: 1,
         },
