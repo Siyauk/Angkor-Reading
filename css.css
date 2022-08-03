@@ -1246,7 +1246,7 @@ h1 {
     }
 }
 
-@media (max-width:926px) {
+@media (max-width:810px) {
     html {
         scroll-padding-top: 0;
     }
