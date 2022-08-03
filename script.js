@@ -116,8 +116,6 @@ var swiper = new Swiper(".books-slider", {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
-            slidesPerView: 4,
-
         },
     },
 });
