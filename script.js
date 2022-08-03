@@ -187,7 +187,7 @@ var swiper = new Swiper(".arrivals-slider", {
         disableOnInteraction: false,
     },
     breakpoints: {
-        430: {
+        440: {
             slidesPerView: 0,
         },
         810: {
