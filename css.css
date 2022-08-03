@@ -333,7 +333,7 @@ section {
 .home .row .books-slider a img {
     background-repeat: no-repeat;
     width:auto;
-   
+    background-size: contain ;
     border-radius: 1rem;
     box-shadow: 1px 2px 5px 0 #e2cb70;
 }
@@ -1274,6 +1274,11 @@ h1 {
     }
     .header .header-1 .search-form.active {
         top: 115%;
+    }
+    .home .row .books-slider a img {
+        background-repeat: no-repeat;
+        width:auto;
+        background-size: contain ;
     }
     .home .row .content p {
         text-align: center;
