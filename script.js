@@ -187,8 +187,24 @@ var swiper = new Swiper(".arrivals-slider", {
         disableOnInteraction: false,
     },
     breakpoints: {
-        430: {
+        0: {
             slidesPerView: 0,
+        },
+        360: {
+            slidesPerView: 1,
+            slidesPerView: 2,
+            slidesPerView: 3,
+            slidesPerView: 4,
+            slidesPerView: 5,
+        },
+        800: {
+            slidesPerView: 1,
+            slidesPerView: 2,
+            slidesPerView: 3,
+            slidesPerView: 4,
+            slidesPerView: 5,
+            slidesPerView: 6,
+            slidesPerView: 7,
         },
         810: {
             slidesPerView: 1,
@@ -196,14 +212,9 @@ var swiper = new Swiper(".arrivals-slider", {
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
+            slidesPerView: 6,
+            slidesPerView: 7,
         },
-        1290: {
-           
-            slidesPerView: 9,
-            slidesPerView: 10,
-            slidesPerView: 11,
-        },
-
     },
 });
 var swiper = new Swiper(".arrivals-slider1", {
