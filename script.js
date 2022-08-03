@@ -108,11 +108,11 @@ var swiper = new Swiper(".books-slider", {
         },
         428: {
             slidesPerView: 1,
-           
-        },
-        926: {
             slidesPerView: 2,
             slidesPerView: 3,
+        },
+        926: {
+           
             slidesPerView: 4,
             slidesPerView: 5,
             slidesPerView: 6,
