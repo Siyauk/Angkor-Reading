@@ -190,7 +190,7 @@ var swiper = new Swiper(".arrivals-slider", {
         430: {
             slidesPerView: 0,
         },
-        431: {
+        810: {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
