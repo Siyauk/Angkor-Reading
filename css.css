@@ -331,7 +331,7 @@ section {
 }
 
 .home .row .books-slider a img {
-    height: 25rem;
+    height: 20rem;
     border-radius: 1rem;
     box-shadow: 1px 2px 5px 0 #e2cb70;
 }
@@ -1243,7 +1243,7 @@ h1 {
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:926px) {
     html {
         scroll-padding-top: 0;
     }
