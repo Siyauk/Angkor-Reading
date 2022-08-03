@@ -109,14 +109,12 @@ var swiper = new Swiper(".books-slider", {
         360: {
             slidesPerView: 2,
             slidesPerView: 3,
-           
         },
         1280: {
             slidesPerView: 4,
             slidesPerView: 5,
             slidesPerView: 6,
             slidesPerView: 7,
-           
         },
     },
 });
