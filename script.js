@@ -235,12 +235,21 @@ var swiper = new Swiper(".reviews-slider", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 1,
+            slidesPerView: 0,
         },
         360: {
+            slidesPerView: 1,
             slidesPerView: 2,
+            slidesPerView: 3,       
         },
-        1280: {
+        800: {
+            slidesPerView: 1,
+            slidesPerView: 2,
+            slidesPerView: 3,
+        },
+        810: {
+            slidesPerView: 1,
+            slidesPerView: 2,
             slidesPerView: 3,
         },
     },
