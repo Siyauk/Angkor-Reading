@@ -199,6 +199,7 @@ var swiper = new Swiper(".arrivals-slider", {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
+            slidesPerView: 4,
         },
         800: {
             slidesPerView: 1,
