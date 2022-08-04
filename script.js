@@ -263,12 +263,17 @@ var swiper = new Swiper(".blogs-slider", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 1,
+            slidesPerView: 0,
         },
         360: {
-            slidesPerView: 2,
+            slidesPerView: 1,   
         },
-        1280: {
+        800: {
+            slidesPerView: 1,
+        },
+        810: {
+            slidesPerView: 1,
+            slidesPerView: 2,
             slidesPerView: 3,
         },
     },
