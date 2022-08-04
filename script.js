@@ -236,20 +236,31 @@ var swiper = new Swiper(".arrivals-slider1", {
         0: {
             slidesPerView: 0,
         },
-
         360: {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
+            slidesPerView: 6,
         },
-        1280: {
+        800: {
+            slidesPerView: 1,
+            slidesPerView: 2,
+            slidesPerView: 3,
+            slidesPerView: 4,
             slidesPerView: 5,
             slidesPerView: 6,
             slidesPerView: 7,
-            slidesPerView: 8,
-            slidesPerView: 9,
+        },
+        810: {
+            slidesPerView: 1,
+            slidesPerView: 2,
+            slidesPerView: 3,
+            slidesPerView: 4,
+            slidesPerView: 5,
+            slidesPerView: 6,
+            slidesPerView: 7,
         },
     },
 });
