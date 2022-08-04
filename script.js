@@ -201,48 +201,7 @@ var swiper = new Swiper(".arrivals-slider", {
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
-            slidesPerView: 6,
-        },
-        800: {
-            slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
-            slidesPerView: 4,
-            slidesPerView: 5,
-            slidesPerView: 6,
-            slidesPerView: 7,
-        },
-        810: {
-            slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
-            slidesPerView: 4,
-            slidesPerView: 5,
-            slidesPerView: 6,
-            slidesPerView: 7,
-        },
-    },
-});
-var swiper = new Swiper(".arrivals-slider1", {
-    spaceBetween: 10,
-    grabCursor: true,
-    loop: true,
-    centeredSlides: false,
-    autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 0,
-        },
-        360: {
-            slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
-            slidesPerView: 4,
-            slidesPerView: 5,
-            slidesPerView: 6,
+           
         },
         800: {
             slidesPerView: 1,
