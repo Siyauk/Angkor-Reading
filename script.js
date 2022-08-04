@@ -227,7 +227,7 @@ var swiper = new Swiper(".arrivals-slider1", {
     loop: true,
     centeredSlides: true,
     autoplay: {
-        delay: 3500,
+        delay: 4500,
         disableOnInteraction: false,
     },
     breakpoints: {
