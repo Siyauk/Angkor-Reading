@@ -15,22 +15,6 @@ document.querySelector('#close-login-btn').onclick = () => {
 }
 
 
-function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-
-    if (dots.style.display == "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "View more";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "View less";
-        moreText.style.display = "inline";
-    }
-}
-
 function myFunction1() {
     var dots = document.getElementById("dots1");
     var moreText = document.getElementById("more1");
@@ -83,6 +67,22 @@ function myFunction4() {
     var dots = document.getElementById("dots4");
     var moreText = document.getElementById("more4");
     var btnText = document.getElementById("myBtn4");
+
+    if (dots.style.display == "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "View more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "View less";
+        moreText.style.display = "inline";
+    }
+}
+
+function myFunction5() {
+    var dots = document.getElementById("dots5");
+    var moreText = document.getElementById("more5");
+    var btnText = document.getElementById("myBtn5");
 
     if (dots.style.display == "none") {
         dots.style.display = "inline";
@@ -237,7 +237,7 @@ var swiper = new Swiper(".arrivals-slider1", {
         360: {
             slidesPerView: 1,
             slidesPerView: 2,
-            slidesPerView: 3,     
+            slidesPerView: 3,    
         },
         800: {
             slidesPerView: 1,

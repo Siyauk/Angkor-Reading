@@ -534,11 +534,11 @@ section {
     height: 5rem;
 }
 
-#more,
 #more1,
 #more2,
 #more3,
-#more4 {
+#more4,
+#more5 {
     display: none;
 }
 
