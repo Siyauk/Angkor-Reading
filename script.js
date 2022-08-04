@@ -270,6 +270,7 @@ var swiper = new Swiper(".blogs-slider", {
         },
         800: {
             slidesPerView: 1,
+            slidesPerView: 2,
         },
         810: {
             slidesPerView: 1,
