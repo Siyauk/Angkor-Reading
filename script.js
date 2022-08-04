@@ -239,13 +239,10 @@ var swiper = new Swiper(".reviews-slider", {
         },
         360: {
             slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,       
+                 
         },
         800: {
             slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
         },
         810: {
             slidesPerView: 1,
