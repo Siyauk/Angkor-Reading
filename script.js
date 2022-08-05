@@ -193,57 +193,43 @@ var swiper = new Swiper(".arrivals-slider", {
     },
     breakpoints: {
         360: {
-            slidesPerView: 1,
-            slidesPerView: 2,
             slidesPerView: 3,
         },
         800: {
-            slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
-            slidesPerView: 4,
-            slidesPerView: 5,
-            slidesPerView: 6,
-            slidesPerView: 7,  
+            slidesPerView: 5,  
         },
-        810: {
-            slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
-            slidesPerView: 4,
+        810:{
             slidesPerView: 5,
-            slidesPerView: 6,
-            slidesPerView: 7,
+        },
+        900:{slidesPerView: 5,
+        },
+        1280:{slidesPerView: 7,
         },
     },
 });
+
 var swiper = new Swiper(".arrivals-slider1", {
     spaceBetween: 10,
     grabCursor: true,
     loop: true,
     centeredSlides: false,
     autoplay: {
-        delay: 3500,
+        delay: 4500,
         disableOnInteraction: false,
     },
     breakpoints: {
         360: {
-            slidesPerView: 1,
-            slidesPerView: 2,
             slidesPerView: 3,
         },
-
         800: {
-            slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
-            slidesPerView: 4,
-            slidesPerView: 5,
-            slidesPerView: 6,
-            slidesPerView: 7,
+            slidesPerView: 5,  
         },
-        810: {
-            slidesPerView: 7,
+        810:{
+            slidesPerView: 5,
+        },
+        900:{slidesPerView: 5,
+        },
+        1280:{slidesPerView: 7,
         },
     },
 });
