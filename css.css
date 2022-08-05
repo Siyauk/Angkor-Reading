@@ -644,6 +644,7 @@ section {
 }
 
 .blogs .blogs-slider .box .image img {
+    margin:0rem 2rem;
     height: 20rem;
     width: 15rem;
     text-align: center;
