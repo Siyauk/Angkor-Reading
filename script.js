@@ -15,6 +15,22 @@ document.querySelector('#close-login-btn').onclick = () => {
 }
 
 
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display == "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "View more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "View less";
+        moreText.style.display = "inline";
+    }
+}
+
 function myFunction1() {
     var dots = document.getElementById("dots1");
     var moreText = document.getElementById("more1");
@@ -79,27 +95,11 @@ function myFunction4() {
     }
 }
 
-function myFunction5() {
-    var dots = document.getElementById("dots5");
-    var moreText = document.getElementById("more5");
-    var btnText = document.getElementById("myBtn5");
-
-    if (dots.style.display == "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "View more";
-        moreText.style.display = "none";
-    } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "View less";
-        moreText.style.display = "inline";
-    }
-}
-
 var swiper = new Swiper(".books-slider", {
     loop: true,
     centeredSlides: true,
     autoplay: {
-        delay: 7500,
+        delay: 9500,
         disableOnInteraction: false,
     },
     breakpoints: {
@@ -138,11 +138,11 @@ var swiper = new Swiper(".books-slider1", {
         0: {
             slidesPerView: 1,
         },
-        360: {
+        428: {
             slidesPerView: 2,
             slidesPerView: 3,
         },
-        1280: {
+        768: {
             slidesPerView: 4,
             slidesPerView: 5,
 
@@ -166,13 +166,13 @@ var swiper = new Swiper(".featured-slider", {
         0: {
             slidesPerView: 1,
         },
-        360: {
+        428: {
             slidesPerView: 2,
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
         },
-        1280: {
+        768: {
             slidesPerView: 6,
             slidesPerView: 7,
             slidesPerView: 8,
@@ -192,14 +192,10 @@ var swiper = new Swiper(".arrivals-slider", {
         disableOnInteraction: false,
     },
     breakpoints: {
-        0: {
-            slidesPerView: 0,
-        },
         360: {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
-            
         },
         800: {
             slidesPerView: 1,
@@ -225,20 +221,18 @@ var swiper = new Swiper(".arrivals-slider1", {
     spaceBetween: 10,
     grabCursor: true,
     loop: true,
-    centeredSlides: true,
+    centeredSlides: false,
     autoplay: {
-        delay: 4500,
+        delay: 3500,
         disableOnInteraction: false,
     },
     breakpoints: {
-        0: {
-            slidesPerView: 0,
-        },
         360: {
             slidesPerView: 1,
             slidesPerView: 2,
-            slidesPerView: 3,    
+            slidesPerView: 3,
         },
+
         800: {
             slidesPerView: 1,
             slidesPerView: 2,
@@ -246,15 +240,9 @@ var swiper = new Swiper(".arrivals-slider1", {
             slidesPerView: 4,
             slidesPerView: 5,
             slidesPerView: 6,
-            slidesPerView: 7,  
+            slidesPerView: 7,
         },
         810: {
-            slidesPerView: 1,
-            slidesPerView: 2,
-            slidesPerView: 3,
-            slidesPerView: 4,
-            slidesPerView: 5,
-            slidesPerView: 6,
             slidesPerView: 7,
         },
     },
@@ -271,18 +259,12 @@ var swiper = new Swiper(".reviews-slider", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 0,
-        },
-        360: {
-            slidesPerView: 1,
-                 
-        },
-        800: {
             slidesPerView: 1,
         },
-        810: {
-            slidesPerView: 1,
+        768: {
             slidesPerView: 2,
+        },
+        1024: {
             slidesPerView: 3,
         },
     },
@@ -299,18 +281,12 @@ var swiper = new Swiper(".blogs-slider", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 0,
-        },
-        360: {
-            slidesPerView: 1,   
-        },
-        800: {
             slidesPerView: 1,
+        },
+        768: {
             slidesPerView: 2,
         },
-        810: {
-            slidesPerView: 1,
-            slidesPerView: 2,
+        1024: {
             slidesPerView: 3,
         },
     },
@@ -329,14 +305,14 @@ var swiper = new Swiper(".featured-slider-business ", {
         0: {
             slidesPerView: 0,
         },
-        360: {
+        428: {
             slidesPerView: 1,
             slidesPerView: 2,
             slidesPerView: 3,
             slidesPerView: 4,
             slidesPerView: 5,
         },
-        1280: {
+        768: {
             slidesPerView: 5,
             slidesPerView: 6,
             slidesPerView: 7,
@@ -347,7 +323,7 @@ var swiper = new Swiper(".featured-slider-business ", {
 });
 
 function myFunction() {
-    var input, filter, ul, li, a, i;
+    var input, filter, ul, li, a, i,h3;
     input = document.getElementById("search-box");
     filter = input.value.toUpperCase();
     document.getElementById("content");
