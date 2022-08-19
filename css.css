@@ -1643,13 +1643,19 @@ h1 {
         margin-top: 15rem;
       }
     .details .review p {
-        margin: 3rem 1rem;
+        margin: 5rem 1rem;
         background-color: gray;
         color: white;
         padding: 1rem;
         border-radius: 1rem;
+        display:block;
       }
-    .details-book{margin:1rem 1rem;}
+    .star-rating{
+        display:block;
+    }
+    .details-book{
+        margin:1rem 1rem;
+    }
     .side, .middle {
         width: 100%;
       }
