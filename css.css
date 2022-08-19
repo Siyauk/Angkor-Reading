@@ -1642,6 +1642,9 @@ h1 {
         margin-top: 5rem;
         margin-top: 15rem;
       }
+    .review{
+        margin: 1rem 0rem;
+    }
     .details .review p {
         margin: 5rem 1rem;
         background-color: gray;
