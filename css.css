@@ -1634,6 +1634,7 @@ h1 {
     .details h3 {
         margin: 2rem 0rem;
         padding: 0rem 20rem;
+        display:flex; 
       }
     .details .star p{
         padding: 1rem 1rem;
@@ -1647,11 +1648,8 @@ h1 {
       }
     .details .review p {
         margin: 5rem 1rem;
-        background-color: gray;
-        color: white;
-        padding: 1rem;
-        border-radius: 1rem;
-        display:block;
+        display: inline-block;
+        padding: 1rem 2rem;
       }
     .star-rating{
         display:block;
