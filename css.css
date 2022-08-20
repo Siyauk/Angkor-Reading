@@ -1618,10 +1618,10 @@ h1 {
         display: none;
     }
     .details .stars {
-        margin: 8rem 0rem;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding:0rem 20rem;
+        margin: 0rem 0rem;
+        left: 21rem;
+        top: 21rem;
+        width: 30rem;
       }
     .details .download-book a {
         top: 2rem;
@@ -1636,8 +1636,10 @@ h1 {
         left: 22rem;
     }
     .details h3 {
-        margin: 2rem 0rem;
-        padding: 0rem 20rem;
+        margin: 0rem 0rem;
+        left: 21rem;
+        top: 25rem;
+        width: 30rem;
       }
     .details .details-book a img {
         width: 15rem;
