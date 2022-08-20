@@ -1701,13 +1701,13 @@ h1 {
         margin: 0rem 1rem;
       }
       .details-A1 {
-        padding: 3rem 2rem;
+        padding: 3rem 1rem;
       }
      
       .details-a1 a img {
-        width: 15rem;
+        width: auto;
         height: 20rem;
-        margin: 2rem 1rem;
+        margin: 1rem 1rem;
       }
       .tittle-books{
         width:65rem;
