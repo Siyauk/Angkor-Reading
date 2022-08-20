@@ -1618,9 +1618,9 @@ h1 {
         display: none;
     }
     .details .stars {
-        margin: 5rem 0rem;
+        margin: 8rem 0rem;
         font-size: 2rem;
-        line-height: 3rem;
+        line-height: 2rem;
         padding:0rem 20rem;
       }
     .details .download-book a {
@@ -1632,7 +1632,7 @@ h1 {
         top: 47rem;
     }
     .details h3 {
-        margin: 0rem;
+        margin: 2rem 0rem;
         padding: 0rem 20rem;
       }
     .details .details-book a img {
