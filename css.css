@@ -1624,12 +1624,16 @@ h1 {
         padding:0rem 20rem;
       }
     .details .download-book a {
-        margin: 0rem -15rem;
-        top: 47rem;
-      }
+        top: 2rem;
+        display: flex;
+        margin-left: -44rem;
+        font-size:2rem;
+    }
     .details .read-online a{
-        margin: 0rem 3rem;
-        top: 47rem;
+        top: 2rem;
+        display:flex;
+        margin-left:-25rem;
+        font-size:2rem;
     }
     .details h3 {
         margin: 2rem 0rem;
