@@ -1638,11 +1638,7 @@ h1 {
     .details h3 {
         margin: 2rem 0rem;
         padding: 0rem 20rem;
-        display:flex; 
       }
-    .details .details-book p{
-        padding: 1rem 1rem;
-    }
     .details .details-book a img {
         width: 15rem;
         height: 20rem;
