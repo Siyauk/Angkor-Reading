@@ -1253,13 +1253,9 @@ h1 {
     width: 100%;
 }
 .details h3 {
-    display:block;
-    position: absolute;
-    margin:12rem 25rem;
+    margin:1rem 0rem;
     font-size :3.5rem;
-    top:23rem;
     color:var(--dark-color);
-    width: 100%;
 }
 .details .download-book a:hover{
     transform: scale(.9);
