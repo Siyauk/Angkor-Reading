@@ -1706,6 +1706,9 @@ h1 {
         height: 20rem;
         margin: 2rem 1rem;
       }
+      .tittle-books{
+        width:50rem;
+      }
       .comment-box {
         padding: 1rem 0rem;
       }
