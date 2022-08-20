@@ -1625,13 +1625,11 @@ h1 {
       }
     .details .download-book a {
         top: 2rem;
-        display: flex;
         margin-left: -44rem;
         font-size:2rem;
     }
     .details .read-online a{
         top: 2rem;
-        display:flex;
         margin-left:-25rem;
         font-size:2rem;
     }
