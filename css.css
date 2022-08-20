@@ -1697,11 +1697,11 @@ h1 {
         margin: 0rem 10rem;
       }
       .details-A1 .tittle-books h3{
-        display: inline;
+        display: inline-block;
         font-size: 3.5rem;
       }
       .details-A1 .tittle-books a{
-        display: inline;
+        display: inline-block;
         margin: 0rem 1rem;
       }
       .details-A1 {
