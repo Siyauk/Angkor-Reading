@@ -1697,12 +1697,11 @@ h1 {
         margin: 0rem 10rem;
       }
       .details-A1 .tittle-books h3{
-        display: inline-block;
         font-size: 3.5rem;
+        margin:0rem 1rem;
       }
       .details-A1 .tittle-books a{
-        display: inline-block;
-        margin: 0rem 1rem;
+        margin: 1rem 3rem;
       }
       .details-A1 {
         padding: 3rem 0rem;
@@ -1714,7 +1713,7 @@ h1 {
         margin: 2rem 1rem;
       }
       .tittle-books{
-        width:50rem;
+        width:70rem;
       }
       .comment-box {
         padding: 1rem 0rem;
@@ -1722,7 +1721,7 @@ h1 {
       .comment-box h3 {
         font-size: 3.5rem;
         width:100rem;
-        display: inline;
+        display: inline-block;
       }
 }
 
