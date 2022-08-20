@@ -1646,11 +1646,13 @@ h1 {
         margin-top: 5rem;
         margin-top: 15rem;
       }
-    .details .review p {
-        margin: 5rem 1rem;
-        display: inline-block;
-        padding: 1rem 2rem;
-      }
+    .details-book p {
+        margin: 2rem 3rem;
+        height: 26rem;
+        padding: 20rem 0rem;
+        font-size: 2.5rem;
+        display: flex;
+    } 
     .star-rating{
         display:block;
     }
