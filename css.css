@@ -1653,7 +1653,6 @@ h1 {
         height: 26rem;
         padding: 20rem 0rem;
         font-size: 2.5rem;
-        display: flex;
     } 
     .star-rating{
         display:block;
