@@ -1722,7 +1722,7 @@ h1 {
       .comment-box h3 {
         font-size: 3.5rem;
         width:60rem;
-        display: inline-block;
+        display: inline;
       }
 }
 
