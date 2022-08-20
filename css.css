@@ -1636,7 +1636,7 @@ h1 {
         padding: 0rem 20rem;
       }
     .details .star p{
-        
+        padding: 1rem 1rem;
     }
     .details .details-book a img {
         width: 15rem;
@@ -1645,9 +1645,6 @@ h1 {
         margin-top: 5rem;
         margin-top: 15rem;
       }
-    .review{
-        margin: 1rem 0rem;
-    }
     .details .review p {
         margin: 5rem 1rem;
         background-color: gray;
