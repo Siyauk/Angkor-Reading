@@ -1621,6 +1621,9 @@ h1 {
         height: 30rem;
         margin: 1rem 1rem;
       }
+    .details .details-book .sub-tittle {
+        width: 40rem;
+      }
     .details .details-book .sub-tittle p {
         font-size: 3rem;
       }
