@@ -1232,7 +1232,7 @@ h1 {
 }
 /* details-book*/
 .details{
-    padding: 10rem 0rem;
+    padding: 2rem 9%;
 }
 .details-book{
     display:flex;
@@ -1466,8 +1466,12 @@ h1 {
     section {
         padding: 1rem 0rem;
     }
+    .details{
+        padding:1rem 0rem;
+    }
     .details-A1{
-        padding: 1rem 1rem;}
+        padding: 1rem 1rem;
+    }
 }
 
 
@@ -1619,14 +1623,14 @@ h1 {
         padding: 0rem 2rem;
       }
     .details .details-book a img {
-        width: 20rem;
-        height: 30rem;
-        margin: 1rem 1rem;
+        width: 18rem;
+        height: 28rem;
+        margin: 0rem 1rem;
       }
     .details .details-book .sub-tittle {
-        width: 40rem;
+        width: 38rem;
         padding: 3rem 0rem;
-        margin: 0rem -3rem;
+       
       }
     .details .details-book .sub-tittle p {
         font-size: 3rem;
@@ -1656,7 +1660,7 @@ h1 {
         margin: 2rem 3rem;
       }
     .details-book{
-        margin:1rem 3rem;
+        margin:0rem 2rem;
     }
     .row-side{
         margin:3rem 3rem ;
