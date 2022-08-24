@@ -1320,16 +1320,20 @@ h1 {
     border-radius: 50%;
 }
 /* star rating*/
-
-  .star-rating{
-    margin:0rem 1rem;
-  } 
+.star-rating {
+    margin: 0rem 3rem;
+    width:60rem;
+}
+.star-rating .star-heading{
+    font-size: 3.5rem;
+}
+.star-rating .star-heading .star-border{
+    font-size: 3.5rem;
+    display: inline-block;
+}
+   
   .star-rating p{
     font-size:2.5rem;
-  }
-  .heading {
-    font-size: 4rem;
-    margin-right: 25px;
   }
   
   .fa {
@@ -1641,16 +1645,17 @@ h1 {
     .star-rating {
         margin: 0rem 3rem;
         width:60rem;
-      }
+    }
+    .star-rating .star-heading{
+        font-size: 3.5rem;
+    }
+    .star-rating .star-heading .star-border{
+        font-size: 3.5rem;
+        display: inline-block;
+    }
     .star-rating p {
         margin: 2rem 3rem;
       }
-    .heading{
-        text-align: left;
-    }
-    .heading .star-border{
-        margin:3rem 3rem;
-    }
     .details-book{
         margin:1rem 3rem;
     }
