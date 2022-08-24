@@ -1397,8 +1397,7 @@ h1 {
 .details-A1 .tittle-books a{
     margin: 1rem 0rem;
     cursor: pointer;
-    display: flex;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color:var(--black);
 }
 .details-A1 .tittle-books a:hover, a:focus {
