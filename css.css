@@ -1627,6 +1627,9 @@ h1 {
     .details .details-book .sub-tittle p {
         font-size: 3rem;
       }
+    .bottom-touch{
+        margin:0rem 3rem;
+    }
     .details .bottom-touch .download-book a {
         font-size: 2.5rem;
       }
