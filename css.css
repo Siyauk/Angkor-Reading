@@ -1698,7 +1698,7 @@ h1 {
       }
       .details-a1 a img {
         width: auto;
-        padding: 1rem 1rem;
+        margin: 1rem 0rem;
       }
       .comment-box {
         padding: 3rem 3rem;
