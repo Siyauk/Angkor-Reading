@@ -1638,6 +1638,7 @@ h1 {
       }
     .star-rating {
         margin: 0rem 3rem;
+        width:60rem;
       }
     .star-rating p {
         margin: 2rem 3rem;
