@@ -1634,26 +1634,26 @@ h1 {
         font-size: 2.5rem;
       }
     .details .review p {
-        margin: 3rem 3rem;
+        margin: 3rem 0rem;
       }
     .share-details {
-        margin: 3rem 3rem;
+        margin: 3rem 0rem;
       }
     .star-border{
-        margin:3rem 3rem;
+        margin:3rem 0rem;
     }
     .star-rating {
-        margin: 0rem 3rem;
+        margin: 0rem 0rem;
         width:60rem;
       }
     .star-rating p {
-        margin: 2rem 3rem;
+        margin: 2rem 0rem;
       }
     .details-book{
         margin:1rem 3rem;
     }
     .row-side{
-        margin:3rem 3rem ;
+        margin:3rem 0rem ;
     }
     .side, .middle {
         width: 55rem;
