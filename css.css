@@ -1623,6 +1623,8 @@ h1 {
       }
     .details .details-book .sub-tittle {
         width: 40rem;
+        padding: 3rem 0rem;
+        margin: 0rem -3rem;
       }
     .details .details-book .sub-tittle p {
         font-size: 3rem;
