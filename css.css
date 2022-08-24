@@ -1639,6 +1639,9 @@ h1 {
     .share-details {
         margin: 3rem 3rem;
       }
+    .star-border{
+        margin:3rem 3rem;
+    }
     .star-rating {
         margin: 0rem 3rem;
         width:60rem;
