@@ -1616,6 +1616,9 @@ h1 {
     .footer .box-container {
         padding: 0rem 2rem;
       }
+    .details{
+        padding:10rem 3rem;
+    }
     .details .details-book a img {
         width: 20rem;
         height: 30rem;
