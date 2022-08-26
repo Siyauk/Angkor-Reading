@@ -1635,6 +1635,9 @@ h1 {
         width:40rem;
         display: inline-block;
       }
+    .details .details-book .sub-tittle {
+        margin-left: -3rem;
+      }
     .details .details-book .sub-tittle p {
         font-size: 3rem;
       }
