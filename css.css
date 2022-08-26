@@ -1466,12 +1466,6 @@ h1 {
     section {
         padding: 1rem 0rem;
     }
-    .details{
-        padding:1rem 0rem;
-    }
-    .details-A1{
-        padding: 1rem 1rem;
-    }
 }
 
 
@@ -1624,6 +1618,13 @@ h1 {
       }
 }
 @media only screen and (min-width:428px){
+
+    .details{
+        padding:1rem 0rem;
+    }
+    .details-A1{
+        padding: 1rem 0rem;
+    }
     .details .details-book a img {
         width: 18rem;
         height: 28rem;
