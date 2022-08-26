@@ -1618,9 +1618,7 @@ h1 {
       }
 }
 @media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3){
+    and (device-width: 428px) {
 
     .details{
         padding:1rem 0rem;
