@@ -1622,6 +1622,8 @@ h1 {
     .footer .box-container {
         padding: 0rem 2rem;
       }
+}
+@media only screen and (min-width:428px){
     .details .details-book a img {
         width: 18rem;
         height: 28rem;
@@ -1716,7 +1718,6 @@ h1 {
         width:40rem;
       }
 }
-
 @media (max-width:450px) {
     html {
         font-size: 40%;
