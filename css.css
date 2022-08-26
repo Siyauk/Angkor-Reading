@@ -1675,10 +1675,10 @@ h1 {
         margin:3rem 3rem ;
     }
     .side, .middle {
-        width: 38rem;
+        width: 50rem;
       }
       .star-side{
-        margin: 0rem 0rem -2rem 0rem;
+        margin: 1rem 0rem -33rem 0rem;
         font-size: 2.5rem;
         width:40rem;
       }
@@ -1701,7 +1701,7 @@ h1 {
         margin: 0rem 6rem;
       }
       .bar-container {
-        width: 25rem;
+        width: 40rem;
       }
       .details-A1 {
         padding: 0rem 3rem;
