@@ -1345,7 +1345,7 @@ h1 {
   
   /* Three column layout */
   .side {
-    width: 70rem;
+    width: 50rem;
     margin-top: 1rem;
   }
   .star-side{
@@ -1354,8 +1354,7 @@ h1 {
   }
   .middle {
     float: left;
-    width: 43%;
-    margin-top: 0rem;
+    width:0rem;
   }
   
   /* Place text to the right */
@@ -1374,7 +1373,7 @@ h1 {
   
   /* The bar container */
   .bar-container {
-    width: 60rem;
+    width: 40rem;
     background-color: #f1f1f1;
     margin:0rem 5rem;
   }
