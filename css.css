@@ -1498,6 +1498,9 @@ h1 {
     .header .header-1 .search-form.active {
         top: 115%;
     }
+    .login-form-container form{
+        width:40rem;
+    }
     .home .row .books-slider a img {
         background-repeat: no-repeat;
         width:auto;
