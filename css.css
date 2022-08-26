@@ -1630,7 +1630,7 @@ h1 {
         height: 28rem;
         margin: 0rem 1rem;
       }
-    .details .details-book .sub-tittle {
+    .details .details-book .sub-tittle a img{
         padding: 3rem 0rem;
         width:40rem;
         display: inline-block;
