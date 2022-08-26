@@ -1498,15 +1498,7 @@ h1 {
     .header .header-1 .search-form.active {
         top: 115%;
     }
-    .login-form-container form{
-        width:40rem;
-    }
-    .login-form-container.active {
-            right: 13rem;
-            width: 42rem;
-            top: 45rem;
-            height: 45rem;
-    }
+
     .home .row .books-slider a img {
         background-repeat: no-repeat;
         width:auto;
