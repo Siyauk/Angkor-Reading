@@ -1617,7 +1617,10 @@ h1 {
         padding: 0rem 2rem;
       }
 }
-@media only screen and (min-width:428px){
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3){
 
     .details{
         padding:1rem 0rem;
