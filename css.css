@@ -1387,7 +1387,7 @@ h1 {
   
 /* details-A1*/
 .details-A1{
-    padding:1rem 0rem;
+    padding:1rem 9%;
 }
 .tittle-books{
     display: flex;
@@ -1417,7 +1417,7 @@ h1 {
     transform: scale(.9);
   }
 .comment-box{
-    padding: 3rem 1rem;
+    padding: 3rem 9%;
 }
 .comment-box h3{
     font-size:3.5rem;
