@@ -1274,13 +1274,13 @@ h1 {
     font-size: 3.5rem;
     color: var(--dark-color);
 }
-.download-book{
+.home .bottom-touch .download-book{
     display: flex;
 }
-.details .bottom-touch .download-book a:hover{
+.home .bottom-touch .download-book a:hover{
     transform: scale(.9);
 }
-.details .bottom-touch .download-book a{
+.home .bottom-touch .download-book a{
     background-color: #219150;    
     font-size:1.5rem;
     cursor:pointer;
@@ -1651,14 +1651,13 @@ h1 {
         height: 22rem;
        
       }
-    .details .sub-tittle h3 {
-        font-size: 3rem;
-      }
-    .bottom-touch{
-        margin:0rem 2rem;
+    .home .bottom-touch{
+        margin:0rem 5rem;
+        margin-top: -10rem;
     }
-    .details .bottom-touch .download-book a {
+    .home .bottom-touch .download-book a {
         font-size: 2.5rem;
+        margin: 0rem 5rem;
       }
     .details .review p {
         margin: 3rem 3rem;
