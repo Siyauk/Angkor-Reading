@@ -1644,9 +1644,9 @@ h1 {
     .home .details .sub-tittle {
         flex: 0 0 30rem;
       }
-    .details .details-book a img {
-        width: 20rem;
-        height: 30rem;
+    .home .details .details-book a img {
+        width: 15rem;
+        height: 25rem;
         margin: 1rem 1rem;
       }
     .details .sub-tittle h3 {
