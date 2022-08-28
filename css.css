@@ -1644,11 +1644,11 @@ h1 {
         font-size: 2rem;
       }
     .home .details .sub-tittle {
-        flex: 0 0 20rem
+        flex: 0 0 22rem
       }
     .home .details .details-book a img {
         width: 15rem;
-        height: 25rem;
+        height: 23rem;
        
       }
     .details .sub-tittle h3 {
