@@ -1643,6 +1643,7 @@ h1 {
       }
     .home .details .sub-tittle {
         flex: 0 0 30rem;
+        margin: 0rem 5rem;
       }
     .home .details .details-book a img {
         width: 15rem;
