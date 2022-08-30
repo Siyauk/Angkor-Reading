@@ -1646,6 +1646,10 @@ h1 {
     .home .share-details {
         margin: 3rem 3rem;
       }
+    .home .share-details a i{
+        width:4rem;
+        line-height:4rem;
+    }
     .star-rating {
         margin: 0rem 3rem;
         width:60rem;
