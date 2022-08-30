@@ -1291,7 +1291,6 @@ h1 {
     margin:1rem 5rem;
 }
 .home .share-details{
-    display:block ruby;
     color: var(--dark-color);
     margin:3rem 1rem;
 }
@@ -1299,7 +1298,7 @@ h1 {
     font-size:3rem;
     border-radius: 1rem;
     margin:0rem 1rem; 
-    font-size: 3.5;
+    display: inline-block;
 }
 .home .share-details a i{
     text-align: center;
