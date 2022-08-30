@@ -1290,34 +1290,19 @@ h1 {
     box-shadow: 2px 3px 5px 0 #c0a958;
     margin:1rem 5rem;
 }
-.review{
-    display: flex;
-}
-.details .review p{
-    text-transform:none;
-    font-size:2rem;
-    margin: 1rem 1rem;
-    width: 70rem;
-    background: var(--light-color);
-    border-radius: 1rem;
-    color: white;
-    padding: 1rem 1rem;
-}
-.share-details{
-    display:flex;
-    align-items: center;
+.home .share-details{
+    display:block ruby;
     color: var(--dark-color);
     margin:3rem 1rem;
 }
-.details .share-details a{
+.home .share-details a p{
     font-size:3rem;
     border-radius: 1rem;
     margin:0rem 1rem; 
     font-size: 3.5;
 }
-.details .icon-share a {
+.home .share-details a i{
     text-align: center;
-    height: 5rem;
     width: 5rem;
     line-height: 5rem;
     font-size: 2rem;
@@ -1657,11 +1642,8 @@ h1 {
     .home .bottom-touch .download-book a {
         font-size: 1.5rem;
         margin: 0rem 5rem;
-      }
-    .details .review p {
-        margin: 3rem 3rem;
-      }
-    .share-details {
+    }
+    .home .share-details {
         margin: 3rem 3rem;
       }
     .star-rating {
@@ -1733,7 +1715,6 @@ h1 {
       .comment-box textarea{
         width:60rem;
       }
-}
 
 @media (max-width:450px) {
     html {
