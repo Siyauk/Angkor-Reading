@@ -1635,23 +1635,16 @@ h1 {
     .home .share-details {
         margin: 3rem 3rem;
       }
-    .home .share-details a i{
+    .home .share-details i{
         width:4rem;
         line-height:4rem;
     }
-    .star-rating {
-        margin: 0rem 3rem;
-        width:60rem;
+    .home .star-heading{
+        margin:3rem 3rem;
     }
-    .star-rating .star-heading{
-        font-size: 3.5rem;
-    }
-    .star-rating .star-heading .star-border{
-        font-size: 3.5rem;
-        display: inline-block;
-    }
-    .star-rating p {
+    .home .chart p {
         margin: 2rem 3rem;
+        margin-bottom: -2rem;
       }
     .details-book{
         margin:1rem 3rem;
