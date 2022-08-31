@@ -1294,13 +1294,13 @@ h1 {
     color: var(--dark-color);
     margin:3rem 1rem;
 }
-.home .share-details a p{
+.home .share-details p{
     font-size:3rem;
     border-radius: 1rem;
     margin:0rem 1rem; 
     display: inline-block;
 }
-.home .share-details a i{
+.home .share-details i{
     text-align: center;
     width: 5rem;
     line-height: 5rem;
@@ -1311,67 +1311,57 @@ h1 {
     border-radius: 50%;
 }
 /* star rating*/
-
-.star-rating{
-    margin:0rem 1rem;
+.home .star-heading{
+    color: var(--black);
+    margin:3rem 0rem;
   }
-.star-rating .star-heading{
+.home .star-heading h3{
     font-size: 3.5rem;
+    display:inline-block;
+    margin-right:5rem;
 }
-.star-rating .star-heading .star-border{
-    font-size: 3.5rem;
-    display: inline-block;
+.home .star-heading i{
+    font-size: 3rem;
 }
-  .star-rating p{
+.home .chart p{
     font-size:2.5rem;
-  }
-  
-  
-  .fa {
-    font-size: 25px;
-  }
-  
-  .checked {
+}
+.checked {
     color: orange;
-  }
-  
-  /* Three column layout */
-  .side {
+}
+/* Three column layout */
+.side {
     width: 70rem;
     margin-top: 1rem;
-  }
-  .star-side{
+}
+.star-side{
     margin: 0rem 0rem -2rem 0rem;
     font-size: 1.5rem;
-  }
-  .middle {
+}
+.middle {
     float: left;
     width: 43%;
     margin-top: 0rem;
-  }
-  
-  /* Place text to the right */
-  .right {
+}  
+/* Place text to the right */
+.right {
     text-align: right;
     font-size:1.5rem;
     margin-top:0rem;
-  }
-  
-  /* Clear floats after the columns */
-  .row-side:after {
+}
+/* Clear floats after the columns */
+.row-side:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* The bar container */
-  .bar-container {
+}  
+/* The bar container */
+.bar-container {
     width: 60rem;
     background-color: #f1f1f1;
     margin:0rem 5rem;
-  }
-  
-  /* Individual bars */
+}
+/* Individual bars */
   .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
   .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
   .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
