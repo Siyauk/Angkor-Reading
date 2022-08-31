@@ -1610,7 +1610,7 @@ h1 {
     }
     .home .details .sub-tittle h3 {
         margin: 0rem 0rem;
-        font-size: 4.5rem;
+        font-size: 4rem;
       }
     .home .details .sub-tittle .star {
         margin: 0rem 0rem;
@@ -1622,7 +1622,6 @@ h1 {
       }
     .home .details .sub-tittle {
         flex: 0 0 22rem;
-        margin: 0rem 3rem;
       }
     .home .details .details-book a img {
         width: 13rem;
