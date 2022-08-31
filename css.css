@@ -1645,6 +1645,9 @@ h1 {
     .home .star-heading{
         margin:3rem 3rem;
     }
+    .home .chart{
+        margin:0rem 3rem;
+    }
     .home .chart p {
         margin: 2rem 3rem;
         margin-bottom: -2rem;
