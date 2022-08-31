@@ -1673,7 +1673,6 @@ h1 {
       /* Place text to the right */
       .right {
         font-size: 2.5rem;
-        margin-top: -2rem;
       }
       
       /* Clear floats after the columns */
@@ -1686,7 +1685,7 @@ h1 {
         margin: 0rem 6rem;
       }
       .bar-container {
-        width: 30rem;
+        width: 25rem;
       }
       .details-A1 {
         padding: 0rem 3rem;
