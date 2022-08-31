@@ -1615,10 +1615,10 @@ h1 {
       }
     .home .details .sub-tittle p {
         margin: 0rem 0rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
     .home .details .sub-tittle {
-        flex: 0 0 25rem
+        flex: 0 0 22rem
       }
     .home .details .details-book a img {
         width: 15rem;
