@@ -1643,10 +1643,10 @@ h1 {
         line-height:4rem;
     }
     .home .star-heading{
-        margin:3rem 3rem;
+        margin:3rem 2rem;
     }
     .home .chart{
-        margin:0rem 3rem;
+        margin:0rem 0rem;
     }
     .home .chart p {
         margin: 2rem 3rem;
@@ -1659,15 +1659,15 @@ h1 {
         margin:3rem 3rem ;
     }
     .side, .middle {
-        width: 55rem;
+        width: 45rem;
       }
       .star-side{
         margin: 0rem 0rem -3rem 0rem;
         font-size: 2.5rem;
-        width:60rem;
+        width:45rem;
       }
       .middle {
-        width: 50rem;
+        width: 40rem;
       }
       
       /* Place text to the right */
