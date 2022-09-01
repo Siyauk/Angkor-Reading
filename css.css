@@ -1346,11 +1346,16 @@ h1 {
     width: 43%;
     margin-top: 0rem;
 }  
+/* The bar container */
+.bar-container {
+    width: 50rem;
+    background-color: #f1f1f1;
+    margin:0rem 5rem;
+}
 /* Place text to the right */
-.right {
-    text-align: right;
+.side-right {
     font-size:1.5rem;
-    margin-top:0rem;
+    margin:0rem 60rem;
 }
 /* Clear floats after the columns */
 .row-side:after {
@@ -1358,12 +1363,7 @@ h1 {
     display: table;
     clear: both;
 }  
-/* The bar container */
-.bar-container {
-    width: 60rem;
-    background-color: #f1f1f1;
-    margin:0rem 5rem;
-}
+
 /* Individual bars */
   .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
   .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
