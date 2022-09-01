@@ -1658,54 +1658,50 @@ h1 {
     .row-side{
         margin:3rem 3rem ;
     }
-    .side, .middle {
-        width: 40rem;
-      }
-      .star-side{
-        margin: 0rem 0rem -2rem 0rem;
+    .side{
+        width:55rem;
+    } 
+    .star-side{
+        margin: 0rem 0rem -3rem 0rem;
         font-size: 2.5rem;
-        width:45rem;
+        width:60rem;
       }
-      .middle {
-        width: 35rem;
+    .middle {
+        width: 55rem;
       }
-      
+    .bar-container {
+        width:40rem;
+        margin: 0rem 10rem;
+      }  
       /* Place text to the right */
-      .right {
+    .side-right {
         font-size: 2.5rem;
-        margin-top: 0rem;
       }
       
       /* Clear floats after the columns */
-      .row-side:after {
+    .row-side:after {
         content: "";
         display: table;
         clear: both;
       }
-      .bar-container {
-        margin: 0rem 6rem;
-      }
-      .bar-container {
-        width: 30rem;
-      }
-      .details-A1 {
+    .details-A1 {
         padding: 0rem 3rem;
       }
-      .details-A1 .tittle-books h3{
+    .details-A1 .tittle-books h3{
         font-size: 3.5rem;
       }
-      .details-A1 .tittle-books a{
+    .details-A1 .tittle-books a{
         margin: 1rem 1rem;
       }
-      .details-a1 a img {
+    .details-a1 a img {
         width: auto;
         height: 20rem;
         margin: 2rem 1rem;
       }
-      .comment-box {
+    .comment-box {
         padding: 3rem 3rem;
       }
-      .comment-box textarea{
+    .comment-box textarea{
         width:60rem;
       }
 
