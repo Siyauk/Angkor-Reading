@@ -1672,12 +1672,13 @@ h1 {
         width: 55rem;
       }
     .bar-container {
-        width:40rem;
-        margin: 0rem 10rem;
+        width:35rem;
+        margin: 0rem 6rem;
       }  
       /* Place text to the right */
     .side-right {
         font-size: 2.5rem;
+        margin:0rem 0rem;
       }
       
       /* Clear floats after the columns */
