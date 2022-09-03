@@ -1668,7 +1668,7 @@ h1 {
         font-size: 2.5rem;
       }
     .middle {
-        width: 45rem;
+        width: 40rem;
       }
     .bar-container {
         width:30rem;
@@ -1678,7 +1678,7 @@ h1 {
     .side-right {
         font-size: 2.5rem;
         margin:0rem 0rem;
-        width:50rem;
+        width:45rem;
       }
       
       /* Clear floats after the columns */
