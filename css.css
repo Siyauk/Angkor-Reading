@@ -1253,8 +1253,8 @@ h1 {
     flex: 1 1 42rem;
   }
 .home .details .details-book a img {
-    width:20rem;
-    height:30rem;
+    max-width:20rem;
+    max-height:30rem;
     border-radius: 1rem;
     margin:1rem 1rem;
     box-shadow: 2px 3px 5px 0 #c0a958;
