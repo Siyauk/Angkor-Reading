@@ -1274,6 +1274,9 @@ h1 {
     font-size: 3.5rem;
     color: var(--dark-color);
 }
+.home .bottom-touch{
+    margin:3rem 0rem;
+}
 .home .bottom-touch .download-book{
     display: flex;
 }
