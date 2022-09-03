@@ -1607,7 +1607,6 @@ h1 {
     .home .details{
         justify-content: space-between;
     }
-    }
     .home .details .sub-tittle h3 {
         margin: 0rem 0rem;
         font-size: 4rem;
@@ -1704,7 +1703,7 @@ h1 {
     .comment-box textarea{
         width:60rem;
       }
-
+}
 @media (max-width:450px) {
     html {
         font-size: 40%;
