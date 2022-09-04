@@ -1701,10 +1701,9 @@ h1 {
     .home .details-A1 .tittle-books a{
         margin: 1rem 1rem;
       }
-    .home .details-a1 a img {
-        width: 15rem;
+    .home .details-A1 .details-a1 a img {
+        width: auto;
         height: 20rem;
-        margin: 1rem 2rem;
       }
     .home .comment-box {
         padding: 3rem 3rem;
