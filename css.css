@@ -1380,12 +1380,9 @@ h1 {
 .home .details-A1{
     padding:1rem 0rem;
 }
-.home .tittle-books{
+.home .details-A1 .tittle-books{
     display: flex;
     align-items: center;
-}
-.home .details-A1 .details-a1{
-    text-align: center;
 }
 .home .details-A1 .tittle-books h3{
     margin:0rem 0rem;
@@ -1402,6 +1399,9 @@ h1 {
     color:var(--green);
     text-decoration: underline;
   }
+.home .details-A1 .details-a1{
+    text-align: center;
+}
 .home .details-A1 .details-a1 a img{
     height: 20rem;
     width: 15rem;
