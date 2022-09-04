@@ -371,8 +371,14 @@ var swiper = new Swiper(".details-a1", {
         360: {
             slidesPerView: 3,
         },
+        375: {
+            slidesPerView: 3,
+        },
+        428: {
+            slidesPerView: 3,
+        },
         800: {
-            slidesPerView: 5,  
+            slidesPerView: 3,
         },
         810:{
             slidesPerView: 5,
