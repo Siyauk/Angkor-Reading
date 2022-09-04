@@ -1384,6 +1384,9 @@ h1 {
     display: flex;
     align-items: center;
 }
+.home .details-A1 .details-a1{
+    text-align: center;
+}
 .home .details-A1 .tittle-books h3{
     margin:0rem 0rem;
     font-size:4rem;
@@ -1399,14 +1402,13 @@ h1 {
     color:var(--green);
     text-decoration: underline;
   }
-.home .details-a1 a img{
+.home .details-A1 .details-a1 a img{
     height: 20rem;
     width: 15rem;
     border-radius: 1rem;
-    margin: 3rem 0rem ;
     box-shadow: 2px 3px 5px 0 #c0a958;
 }
-.home .details-a1 a img:hover {
+.home .details-A1 .details-a1 a img:hover {
     transform: scale(.9);
   }
 .home .comment-box{
