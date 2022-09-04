@@ -1708,7 +1708,7 @@ h1 {
         padding: 3rem 3rem;
       }
     .home .comment-box textarea{
-        width:45rem;
+        width:40rem;
       }
 }
 @media (max-width:450px) {
