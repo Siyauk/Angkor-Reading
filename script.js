@@ -364,7 +364,7 @@ var swiper = new Swiper(".details-a1", {
     loop: true,
     centeredSlides: false,
     autoplay: {
-        delay: 4500,
+        delay: 6500,
         disableOnInteraction: false,
     },
     breakpoints: {
