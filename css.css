@@ -1377,55 +1377,55 @@ h1 {
   .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
   
 /* details-A1*/
-.details-A1{
+.home .details-A1{
     padding:1rem 0rem;
 }
-.tittle-books{
+.home .tittle-books{
     display: flex;
 }
-.details-A1 .tittle-books h3{
+.home .details-A1 .tittle-books h3{
     margin:0rem 0rem;
     font-size:4rem;
 } 
-.details-A1 .tittle-books a{
+.home .details-A1 .tittle-books a{
     margin: 1rem 0rem;
     cursor: pointer;
     display: flex;
     font-size: 2.5rem;
     color:var(--black);
 }
-.details-A1 .tittle-books a:hover, a:focus {
+.home .details-A1 .tittle-books a:hover, a:focus {
     color:var(--green);
     text-decoration: underline;
   }
-.details-a1 a img{
+.home .details-a1 a img{
     height: 20rem;
     width: 15rem;
     border-radius: 1rem;
     margin: 3rem 0rem ;
     box-shadow: 2px 3px 5px 0 #c0a958;
 }
-.details-a1 a img:hover {
+.home .details-a1 a img:hover {
     transform: scale(.9);
   }
-.comment-box{
+.home .comment-box{
     padding: 3rem 1rem;
 }
-.comment-box h3{
+.home .comment-box h3{
     font-size:3.5rem;
 }
-.comment-box textarea {
+.home .comment-box textarea {
     width:70rem;
     padding: 1rem 1rem; 
     height: 20rem;
     border-radius: 1rem;
     border:1px solid var(--light-color);
   }
-.comment-box textarea:focus{
+.home .comment-box textarea:focus{
     border:2px solid var(--green);
     outline: 0;  
 }
-.comment-box button{
+.home .comment-box button{
     padding: 1rem 1rem;
     background: var(--green);
     border-radius: 1rem;
@@ -1433,7 +1433,7 @@ h1 {
     color: white;   
     display: block; 
 }
-.comment-box button:hover {
+.home .comment-box button:hover {
     transform: scale(.9);
   }
 .pdf-book{
@@ -1689,24 +1689,24 @@ h1 {
         display: table;
         clear: both;
       }
-    .details-A1 {
+    .home .details-A1 {
         padding: 0rem 3rem;
       }
-    .details-A1 .tittle-books h3{
+    .home .details-A1 .tittle-books h3{
         font-size: 3.5rem;
       }
-    .details-A1 .tittle-books a{
+    .home .details-A1 .tittle-books a{
         margin: 1rem 1rem;
       }
-    .details-a1 a img {
+    .home .details-a1 a img {
         width: auto;
         height: 20rem;
         margin: 2rem 1rem;
       }
-    .comment-box {
+    .home .comment-box {
         padding: 3rem 3rem;
       }
-    .comment-box textarea{
+    .home .comment-box textarea{
         width:60rem;
       }
 }
