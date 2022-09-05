@@ -646,7 +646,6 @@ section {
 }
 
 .blogs .blogs-slider .box .image img {
-    margin:0rem 2rem;
     height: 20rem;
     width: 15rem;
     text-align: center;
@@ -660,7 +659,7 @@ section {
 
 .blogs .blogs-slider .box .content {
     width: 100%;
-    padding: 0rem 2rem;
+    padding: 0rem 0rem;
 }
 
 .blogs .blogs-slider .box .content h3 {
