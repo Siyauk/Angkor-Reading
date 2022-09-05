@@ -554,6 +554,7 @@ section {
 
 .deal .content {
     flex: 1 1 25rem;
+    padding: 2rem 1rem;
 }
 
 .deal .image {
@@ -561,7 +562,7 @@ section {
 }
 
 .deal .image img {
-    width: 100%;
+    width: 70%;
     border-radius: 1rem;
 }
 
