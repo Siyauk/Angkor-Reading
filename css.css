@@ -1488,8 +1488,8 @@ h1 {
     .header .header-1 .search-form {
         position: absolute;
         top: -115%;
-        right: 2rem;
-        width: 90%;
+        right: 15rem;
+        width: 50%;
         box-shadow: var(--box-shadow);
     }
     .header .header-1 .search-form.active {
