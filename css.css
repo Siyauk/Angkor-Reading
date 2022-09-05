@@ -1486,6 +1486,7 @@ h1 {
         position: relative;
     }
     .header .header-1 .search-form {
+        max-width: none;
         position: absolute;
         top: -115%;
         right: 2rem;
