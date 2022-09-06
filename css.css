@@ -125,13 +125,12 @@ section {
     width: 50rem;
     height: 5rem;
     border: var(--border);
-    overflow: hidden;
     background: #fff;
-    display: flex;
     align-items: center;
     border-radius: .5rem;
+    top:4rem;
+    color: black;
 }
-
 .header .header-1 .search-form input {
     font-size: 1.6rem;
     padding: 0 1.2rem;
@@ -169,6 +168,28 @@ section {
     display: none;
 }
 
+/*search-list*/
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  #myUL li a {
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: green;
+    display: block;
+    width:50rem;
+    position: relative;
+    list-style-type: none;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+/*end search-list*/
 .header .header-2 {
     background: var(--green);
 }
@@ -1492,6 +1513,9 @@ h1 {
         right: 2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
+    }
+    #myUL li a {
+        width:100%;
     }
     .header .header-1 .search-form.active {
         top: 115%;
