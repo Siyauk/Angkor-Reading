@@ -124,12 +124,8 @@ section {
 .header .header-1 .search-form {
     width: 50rem;
     height: 5rem;
-    border: var(--border);
-    background: rgb(0, 0, 0);
-    border-radius: .5rem;
     top:4rem;
     color: black;
-    overflow: hidden;
 }
 .header .header-1 .search-form input {
     font-size: 1.6rem;
@@ -138,6 +134,8 @@ section {
     width: 100%;
     text-transform: none;
     color: var(--black);
+    border:var(--border);
+    border-radius: 2rem;
 }
 
 .header .header-1 .search-form label {
@@ -175,7 +173,7 @@ section {
     margin: 0;
   }
   #myUL li a {
-    background-color: #f6f6f6;
+    background-color: #fff;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
