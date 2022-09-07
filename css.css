@@ -1646,7 +1646,7 @@ h1 {
     .footer .box-container {
         padding: 0rem 2rem;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 0fr));
-        gap:2.5rem;
+        gap:6rem;
     }
     .home .details{
         justify-content: space-between;
