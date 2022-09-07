@@ -1637,6 +1637,9 @@ h1 {
     .swiper-button-prev {
         display: none;
     }
+    .footer .box-container .box{
+        width: 16rem;
+    }
     .footer .box-container {
         padding: 0rem 2rem;
     }
