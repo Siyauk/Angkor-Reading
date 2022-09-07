@@ -1642,14 +1642,7 @@ h1 {
     .swiper-button-prev {
         display: none;
     }
-    .footer .box-container .box{
-        width: 16rem;
-    }
-    .footer .box-container .box h3{
-        width: 16rem;
-    }
     .footer .box-container {
-        padding: 0rem 2rem;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 0fr));
         gap:6rem;
     }
