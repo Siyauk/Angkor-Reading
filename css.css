@@ -1510,7 +1510,6 @@ h1 {
         top: -115%;
         right: 2rem;
         width: 90%;
-        box-shadow: var(--box-shadow);
     }
     #myUL li a {
         width:100%;
