@@ -1509,6 +1509,7 @@ h1 {
         position: absolute;
         top: -115%;
         right: 10rem;
+        width:45rem;
     }
     #myUL li a {
         width:100%;
