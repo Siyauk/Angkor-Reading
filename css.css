@@ -185,11 +185,11 @@ section {
     position: relative;
     list-style-type: none;
   }
-  
   #myUL li a:hover:not(.header) {
     background-color: #eee;
   }
 /*end search-list*/
+
 .header .header-2 {
     background: var(--green);
 }

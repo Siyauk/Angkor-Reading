@@ -22,20 +22,7 @@ window.onscroll = () =>{
     }else{
       document.querySelector('.header .header-2').classList.remove('active');
     }
-  
-  }
-  
-  window.onload = () =>{
-  
-    if(window.scrollY > 80){
-      document.querySelector('.header .header-2').classList.add('active');
-    }else{
-      document.querySelector('.header .header-2').classList.remove('active');
-    }
-  
     fadeOut();
-  
-  }
   
   function loader(){
     document.querySelector('.loader-container').classList.add('active');
@@ -44,7 +31,7 @@ window.onscroll = () =>{
   function fadeOut(){
     setTimeout(loader, 4000);
   }
-
+}
 function myFunction1() {
     var dots = document.getElementById("dots1");
     var moreText = document.getElementById("more1");
@@ -389,3 +376,55 @@ var swiper = new Swiper(".details-a1", {
         },
     },
 });
+/*search-list*/
+
+  
+var UL = document.getElementById("myUL");
+// hilde the list by default
+UL.style.display = "none";
+
+var searchBox = document.getElementById("search-box");
+
+// show the list when the input receive focus
+searchBox.addEventListener("focus",  function(){
+    // UL.style.display = "block";
+});
+
+// hide the list when the input receive focus
+searchBox.addEventListener("blur", function(){
+    UL.style.display = "none";
+});
+
+
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("search-box");
+    ul = document.getElementById("myUL");
+    filter = input.value.toUpperCase();
+    // if the input is empty hide the list
+    if(filter.trim().length < 1) {
+        ul.style.display = "none";
+        return false;
+    } else {
+        ul.style.display = "block";
+    }
+    
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        
+        // This is when you want to find words that contain the search string
+     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) { 
+        li[i].style.display = "";
+     } else {
+        li[i].style.display = "none";
+    } 
+    
+    // This is when you want to find words that start the search string
+    /*if (a.innerHTML.toUpperCase().startsWith(filter)) {
+        li[i].style.display = "";
+    } else {
+        li[i].style.display = "none";
+    }*/
+    }
+}
