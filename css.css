@@ -1547,6 +1547,11 @@ h1 {
         padding-bottom: 0rem;
         box-shadow: 1px 2px 5px 0 #e2cb70;
     }
+    .arrivals .arrivals-slider .image img{
+        background-repeat: no-repeat;
+        width: auto;
+        background-size: contain;
+    }
     .blogs .blogs-slider .box .image {
         height: 45rem;
         width: 45%;
@@ -1554,6 +1559,7 @@ h1 {
     }
     .blogs .blogs-slider .box {
         height: 25rem;
+        padding: 2rem;
     }
     .reviews .reviews-slider .box img {
         height: 20rem;
