@@ -126,10 +126,10 @@ section {
     height: 5rem;
     border: var(--border);
     background: #fff;
-    align-items: center;
     border-radius: .5rem;
     top:4rem;
     color: black;
+    overflow: hidden;
 }
 .header .header-1 .search-form input {
     font-size: 1.6rem;
