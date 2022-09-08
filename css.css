@@ -1508,8 +1508,8 @@ h1 {
         max-width: none;
         position: absolute;
         top: -115%;
-        right: 10rem;
-        width:45rem;
+        right:2rem;
+        width:90%;
     }
     #myUL li a {
         width:100%;
