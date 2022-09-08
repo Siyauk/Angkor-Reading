@@ -1642,9 +1642,12 @@ h1 {
     .swiper-button-prev {
         display: none;
     }
+    .footer .box-container .box{
+        width:17rem;
+    }
     .footer .box-container {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 0fr));
-        gap:6rem;
+        gap:2rem;
     }
     .home .details{
         justify-content: space-between;
