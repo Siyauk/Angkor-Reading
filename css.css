@@ -174,9 +174,8 @@ section {
   }
   #myUL li a {
     background-color: #fff;
-    padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: green;
     display: block;
     width:50rem;
@@ -1269,6 +1268,8 @@ h1 {
 .home .dtails .sub-tittle1 h3{
     font-size:4rem;
     text-align: center;
+    color:var(--dark-color);
+    margin-top: 15rem;
 }
 .home .details .details-book {
     text-align: center;
