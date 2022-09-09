@@ -1266,6 +1266,10 @@ h1 {
 .details{
     padding: 10rem 0rem;
 }
+.home .dtails .sub-tittle1 h3{
+    font-size:4rem;
+    text-align: center;
+}
 .home .details .details-book {
     text-align: center;
     margin-top: 2rem;
