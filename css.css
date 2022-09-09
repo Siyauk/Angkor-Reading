@@ -128,7 +128,7 @@ section {
     color: black;
 }
 .header .header-1 .search-form input {
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 0 1.2rem;
     height: 100%;
     width: 100%;
@@ -175,12 +175,12 @@ section {
   #myUL li a {
     background-color: #fff;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: green;
     display: block;
     width:50rem;
     position: relative;
-    list-style-type: none;
+    padding:0.5rem 2rem;
   }
   #myUL li a:hover:not(.header) {
     background-color: #eee;
