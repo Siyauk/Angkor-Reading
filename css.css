@@ -797,6 +797,10 @@ section {
 
 .home .row-self .self-help {
     flex: 1 1 42rem;
+    margin-top:10rem;
+    position: relative;
+    overflow: hidden;
+    padding:0rem 5rem;
 }
 
 .home .row-self .books-slider1 {
@@ -805,7 +809,17 @@ section {
     margin-top: 2rem;
     width: 100%;
 }
+.home .stand img {
+    width: 100%;
+    padding: 2rem 2rem;
+    border-radius: 5rem;
+}
 
+.home .stand img{
+    width: 100%;
+    padding: 2rem 2rem;
+    border-radius:5rem;
+}
 .home .row-self .books-slider1 a img {
     height: 25rem;
     margin-top: 15rem;
@@ -818,22 +832,17 @@ section {
     transform: scale(.9);
 }
 
-.home .books-slider1 .stand {
-    width: 100%;
-    margin-top: -57rem;
-    border-radius: 1rem;
-}
-
 .home .row-self .self-help h3 {
     color: var(--black);
     font-size: 3.5rem;
     text-align: center;
+    margin-top:10rem;
 }
 
 .home .row-self .self-help p {
     color: var(--light-color);
     font-size: 2rem;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     text-align: center;
 }
 
