@@ -26,12 +26,18 @@
         <div class="header-1">
 
             <a href="#" class="logo"> <i class="fas fa-book"></i> Angkor Reading </a>
-
             <form action="" class="search-form">
-                <input type="search" name="" placeholder="search here..." id="search-box">
-                <label for="search-box" class="fas fa-search"></label>
+                <input type="text" autocomplete="off" id="search-box" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+                    <ul id="myUL">
+                        <li><a href="#">Adele</a></li>
+                        <li><a href="#">Agnes</a></li>
+                        <li><a href="#">Billy</a></li>
+                        <li><a href="#">Bob</a></li>
+                        <li><a href="#">Calvin</a></li>
+                        <li><a href="#">Christina</a></li>
+                        <li><a href="#">Cindy</a></li>
+                    </ul>
             </form>
-
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
                 <div id="login-btn" class="fas fa-user"></div>
