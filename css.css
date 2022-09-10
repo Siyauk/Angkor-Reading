@@ -809,17 +809,16 @@ section {
     margin-top: 2rem;
     width: 100%;
 }
+.home .stand{
+    background-color: #f3f3f3;
+    padding-bottom: 5rem;
+}
 .home .stand img {
     width: 100%;
     padding: 2rem 2rem;
     border-radius: 5rem;
 }
 
-.home .stand img{
-    width: 100%;
-    padding: 2rem 2rem;
-    border-radius:5rem;
-}
 .home .row-self .books-slider1 a img {
     height: 25rem;
     border-radius: 1rem;
