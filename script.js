@@ -183,7 +183,7 @@ var swiper = new Swiper(".featured-slider", {
             slidesPerView: 1,
         },
         428: {
-            slidesPerView: 5,
+            slidesPerView: 3,
         },
         768: {
             slidesPerView: 9,
