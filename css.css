@@ -1472,11 +1472,11 @@ h1 {
         max-width: none;
         position: absolute;
         top: -115%;
-        right:2rem;
+        right:3rem;
         width:90%;
     }
     #myUL li a {
-        width:100%;
+        width:90%;
     }
     .header .header-1 .search-form.active {
         top: 115%;
