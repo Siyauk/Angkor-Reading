@@ -608,6 +608,7 @@ section {
 
 .blogs .blogs-slider .box:hover {
     border: var(--border-hover);
+    transform: scale(.9);
 }
 
 .blogs .blogs-slider .box .image {
