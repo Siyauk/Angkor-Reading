@@ -1615,8 +1615,8 @@ h1 {
         width:17rem;
     }
     .footer .box-container {
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-        gap:4rem;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 0fr));
+        gap:6rem;
     }
     .home .details{
         justify-content: space-between;
