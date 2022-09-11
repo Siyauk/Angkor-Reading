@@ -1288,7 +1288,7 @@ h1 {
     margin:0rem 1rem; 
     display: inline-block;
 }
-.home .share-details i{
+.home .share-details a{
     text-align: center;
     width: 5rem;
     line-height: 5rem;
@@ -1651,7 +1651,7 @@ h1 {
     .home .share-details {
         margin: 3rem 3rem;
       }
-    .home .share-details i{
+    .home .share-details a{
         width:4rem;
         line-height:4rem;
     }
