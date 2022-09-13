@@ -1717,6 +1717,8 @@ h1 {
     .home .comment-box textarea{
         width:40rem;
       }
+      input, select, textarea {
+        font-size: 16px;
 }
 @media (max-width:450px) {
     html {
