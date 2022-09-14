@@ -1718,7 +1718,7 @@ h1 {
         width:40rem;
       }
       input, select, textarea {
-        font-size: 16px;
+        font-size: 16px;}
 }
 @media (max-width:450px) {
     html {
