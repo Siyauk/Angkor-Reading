@@ -1518,11 +1518,7 @@ h1 {
         width: auto;
         background-size: contain;
     }
-    .arrivals-slider1 .image img{
-        background-repeat: no-repeat;
-        width: auto;
-        background-size: contain;
-    }
+
     .blogs .blogs-slider .box .image {
         height: 45rem;
         width: 45%;
