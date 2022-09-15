@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=428px, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Angkor Reading</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -26,14 +27,22 @@
         <div class="header-1">
 
             <a href="#" class="logo"> <i class="fas fa-book"></i> Angkor Reading </a>
-
             <form action="" class="search-form">
-                <input type="search" name="" placeholder="search here..." id="search-box">
-                <label for="search-box" class="fas fa-search"></label>
+                <input type="text" autocomplete="off" id="search-box" onkeyup="myFunction()" placeholder="Search by title..." title="Type in a name">
+                    <ul id="myUL">
+                        <li><a href="#">Adele</a></li>
+                        <li><a href="#">Agnes</a></li>
+                        <li><a href="#">Billy</a></li>
+                        <li><a href="#">Bob</a></li>
+                        <li><a href="#">Calvin</a></li>
+                        <li><a href="#">Christina</a></li>
+                        <li><a href="#">Cindy</a></li>
+                    </ul>
             </form>
-
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
                 <div id="login-btn" class="fas fa-user"></div>
             </div>
 
@@ -90,123 +99,250 @@
     </div>
     <!-- Page Start -->
     <section class="home" id="home">
-        <div class="business">
-            <div class="row-self">
-                <div class="self-help">
-                    <h3>Business</h3>
-                    <p>Business is the activity of making one's living or making money by producing or buying and selling products (such as goods and services).</p>
+        <div class="row-self">
+            <div class="self-help">
+                <h3>Business</h3>
+                <p>Business is the activity of making one's living or making money by producing or buying and selling products (such as goods and services).</p>
+            </div>
+            <div class="stand">
+                <img src="https://www.roadaffair.com/wp-content/uploads/2019/03/bayon-temple-angkor-wat-cambodia-shutterstock_351555083.jpg" alt="bayon-temple">
+            </div>
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="image/The-Secret.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/IKIGAI.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/MIND-MAP.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/Rich-dad-poor-dad.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/Think-And-Grow-Rich.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/108-Ideal-Practices.jpg" alt=""></a>
                 </div>
             </div>
-        </div>
-
-        <div class="swiper books-slider">
-            <div class="swiper-wrapper">
-                <div class="business-top1">
-                    <img src="image/1.book lovers.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="business-top1">
-                    <img src="image/2.the subtle art of not giving a fuck.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="business-top1">
-                    <img src="image/3.atomic habits.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="business-top1">
-                    <img src="image/4.how to win friends & influence people.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="business-top1">
-                    <img src="image/5.the 7 habits of highly effective people.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="business-top1">
-                    <img src="image/6.the boy the mole the fox and the horse.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-        </div>
     </section>
     <!-- start recommended -->
-    <section class=" featured-business " id="featured ">
-        <h1 class="heading "><span>Recommended Reads</span> </h1>
-        <div class="swiper wrapper-business">
-            <div class="slide-business">
-                <div class="recommended1">
-                    <img src="image/1.book lovers.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
+    <section class="arrivals" id="arrivals">
+        <h1 class="heading"> <span>Recommended Reads</span> </h1>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/1.book lovers.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Book Lovers</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
                 </div>
-                <div class="recommended1">
-                    <img src="image/2.the subtle art of not giving a fuck.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/2.the subtle art of not giving a fuck.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The subtle art of not giving a fuck</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
                 </div>
-                <div class="recommended1">
-                    <img src="image/3.atomic habits.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/3.atomic habits.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Atomic habits</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
                 </div>
-                <div class="recommended1">
-                    <img src="image/4.how to win friends & influence people.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/4.how to win friends & influence people.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>How to win friends &influence people</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
                 </div>
-                <div class="recommended1">
-                    <img src="image/5.the 7 habits of highly effective people.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="recommended1">
-                    <img src="image/6.the boy the mole the fox and the horse.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="recommended1">
-                    <img src="image/7.the power of habit.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="recommended1">
-                    <img src="image/8.the psychology of money.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="recommended1">
-                    <img src="image/3.atomic habits.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="recommended1">
-                    <img src="image/4.how to win friends & influence people.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
-                </div>
-                <div class="recommended1">
-                    <img src="image/5.the 7 habits of highly effective people.jpg" alt="">
-                    <a href="#" class="btn">read more</a>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/5.the 7 habits of highly effective people.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The 7 habits of highly effective people</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="featured-business1" id="featured-business">
+    <!--the most popular books-->
+    <section class="arrivals" id="arrivals">
         <h1 class="heading"> <span>The Most Popular Books</span> </h1>
-        <div class="row">
-            <div class="swiper featured-slider-business">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="#" class="content-read"><img src="image/The-Secret.jpg" alt=""></a>
-                        <a href="#" class="read">read more</a></div>
-                    <div class="swiper-slide">
-                        <a href="#" class="content-read"><img src="image/IKIGAI.jpg" alt=""></a>
-                        <a href="#" class="read">read more</a></div>
-                    <div class="swiper-slide">
-                        <a href="#" class="content-read"><img src="image/MIND-MAP.jpg" alt=""></a>
-                        <a href="#" class="read">read more</a></div>
-                    <div class="swiper-slide">
-                        <a href="#" class="content-read"><img src="image/Rich-dad-poor-dad.jpg" alt=""></a>
-                        <a href="#" class="read">read more</a></div>
-                    <div class="swiper-slide">
-                        <a href="#" class="content-read"><img src="image/Think-And-Grow-Rich.jpg" alt=""></a>
-                        <a href="#" class="read">read more</a></div>
-                    <div class="swiper-slide">
-                        <a href="#" class="content-read"><img src="image/108-Ideal-Practices.jpg" alt=""></a>
-                        <a href="#" class="read">read more</a></div>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/1.book lovers.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Book Lovers</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/2.the subtle art of not giving a fuck.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The subtle art of not giving a fuck</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/3.atomic habits.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Atomic habits</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/4.how to win friends & influence people.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>How to win friends &influence people</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/5.the 7 habits of highly effective people.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The 7 habits of highly effective people</h3>
+                        <a href="#" class="btn1">read more</a>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <div class="swiper arrivals-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/6.the boy the mole the fox and the horse.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the boy the mole the fox and the horse</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/7.the power of habit.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the power of habit</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/8.the psychology of money.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the psychology of money</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/9.the power of now.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the power of now</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/10.quiet.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>quite</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span id="more1">  
+                <span id="dots1"></span>
+            <div class="swiper arrivals-slider1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/6.the boy the mole the fox and the horse.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the boy the mole the fox and the horse</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/7.the power of habit.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the power of habit</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/8.the psychology of money.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the psychology of money</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/9.the power of now.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the power of now</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/10.quiet.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>quite</h3>
+                            <a href="#" class="btn1">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </span>
+            <button onclick="myFunction1()" id="myBtn1" class="btn">View More</button>
     </section>
+
     <!-- end recommended -->
 
     <!-- arrivals section starts  -->
@@ -498,7 +634,7 @@
             <!-- <a href="# " class="btn ">shop now</a>-->
         </div>
         <div class="image ">
-            <img src="image/reading-kids-2_1.jpg " alt=" ">
+            <img src="https://res.cloudinary.com/mkrstudio/image/upload/c_fill,w_400/f_auto,q_auto,dpr_3.0/wvnzcontent/resources/worldvision/media/generalimages/asia/asia-cambodia-education-resources.jpg">
         </div>
     </section>
 
