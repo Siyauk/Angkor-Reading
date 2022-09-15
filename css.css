@@ -759,12 +759,12 @@ section {
 .home .row-self .books-slider1 {
     flex: 1 1 42rem;
     text-align: center;
-    margin-top: -20rem;
+    margin-top: -24rem;
     width: 100%;
 }
 .home .stand{
     background-color: #f3f3f3;
-    padding-bottom: 18rem;
+    padding-bottom: 22rem;
 }
 .home .stand img {
     width: 100%;
@@ -1507,11 +1507,17 @@ h1 {
         padding-bottom: 0rem;
         box-shadow: 1px 2px 5px 0 #e2cb70;
     }
+    .home .stand {
+        padding-bottom: 18rem;
+      }
     .home .stand img {
         width: 100%;
         padding: 2rem 2rem;
         border-radius: 5rem;
         position: relative;
+      }
+    .home .row-self .books-slider1 {
+        margin-top: -20rem;
       }
     .arrivals .arrivals-slider .image img{
         background-repeat: no-repeat;
