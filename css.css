@@ -796,119 +796,25 @@ section {
     padding: 1rem 2rem;
     text-align: center;
 }
-
-
 /* business*/
-
-.books-slider {
+.home .row-self .books-slider {
     flex: 1 1 42rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: -24rem;
     width: 100%;
 }
 
-.business-top1 {
-    padding: 1rem;
-}
-
-.books-slider .business-top1 img {
-    width: 100%;
+.home .row-self .books-slider img {
+    height: 25rem;
     border-radius: 1rem;
     box-shadow: 1px 2px 5px 0 #e2cb70;
     max-height: 235px;
-    height: 80%;
 }
 
-.books-slider .business-top1:hover img {
+.home .row-self .books-slider a:hover img {
     transform: scale(.9);
 }
-
-.business-top1 a {
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-    display: inline-block;
-    margin: 1rem;
-}
-
-
-/* recommended reads */
-
-.wrapper-business img {
-    border-radius: 1rem;
-    box-shadow: 2px 2px 8px #8a8a8a;
-    max-height: 235px;
-    height: 90%;
-}
-
-.wrapper-business .recommended1:hover img {
-    transform: scale(.9);
-}
-
-.slide-business {
-    padding: 0 1rem;
-    position: relative;
-    height: 233px;
-    width: 100%;
-    margin-bottom: 30px;
-    display: flex;
-    animation: bannermove 50s linear infinite;
-}
-
-.slide-business .recommended1 {
-    text-align: center;
-    width: 100%;
-}
-
-.recommended1 a {
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-    display: inline-block;
-    margin: 1rem;
-}
-
-@keyframes bannermove {
-    100% {
-        transform: translateX(-600px);
-    }
-}
-
-.featured-business1 .row .featured-slider-business {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.featured-business1 .row .featured-slider-business a img {
-    height: 15rem;
-    width: 10rem;
-    border-radius: 1rem;
-    box-shadow: 1px 2px 5px 0 #e2cb70;
-}
-
-.featured-business1 .row .featured-slider-business a:hover img {
-    transform: scale(.9);
-}
-
-.content-read {
-    margin: 1rem;
-}
-
-.read {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: 1rem;
-    border-radius: 1rem;
-    color: #fff;
-    background: var(--green);
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-.read:hover {
-    background: var(--dark-color);
-}
-
-
-/* new books business*/
+/* new business book - coming soon*/
 
 h1 {
     font-size: 2.5rem;
