@@ -867,7 +867,7 @@ h1 {
     backface-visibility: hidden;
     text-align: center;
     height: auto;
-    min-height: 200px;
+    min-height: 20rem;
     border-radius: 10px;
     color: #000;
     font-size: 1.3rem;
@@ -909,7 +909,6 @@ h1 {
     top: 1rem;
     left: 1rem;
     width: 88%;
-    height: 100px;
 }
 
 .inner {
