@@ -826,7 +826,7 @@ h1 {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 95%;
 }
 
 .cols {
@@ -1483,8 +1483,9 @@ h1 {
         font-size: 1.3rem;
     }
     .col {
-        width: calc(30% - 0rem);
-        margin: 1rem;
+        width: 16rem;
+        height: 30rem;
+        margin: 1rem 3rem;
       }
     .back {
         width: 100%;
