@@ -1418,6 +1418,7 @@ h1 {
       }
     .home .stand img {
         width: 100%;
+        height:40rem;
         padding: 2rem 2rem;
         border-radius: 5rem;
         position: relative;
@@ -1427,6 +1428,9 @@ h1 {
       }
     .home .row-self .books-slider1 {
         margin-top: -22rem;
+      }
+    .home .row-self .books-slider img {
+        height: 22rem;
       }
     .arrivals .arrivals-slider .image img{
         background-repeat: no-repeat;
