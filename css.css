@@ -1482,6 +1482,10 @@ h1 {
         min-height: 130px;
         font-size: 1.3rem;
     }
+    .col {
+        width: calc(30% - 5rem);
+        margin: 3rem;
+      }
     .back {
         width: 100%;
         min-height: 130px;
