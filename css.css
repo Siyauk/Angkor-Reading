@@ -1106,8 +1106,7 @@ h1 {
 /* new arrival audiobook*/
 
 .wrapper .cols {
-    margin: 0rem -2rem;
-    padding: 1rem;
+    margin:0rem -1rem;
     border-radius: 1rem;
     box-shadow: 1px 2px 5px 0 #ccc29c;
 }
@@ -1485,7 +1484,7 @@ h1 {
     .col {
         width: 16rem;
         height: 30rem;
-        margin: 1rem 3rem;
+        margin: 2rem;
       }
     .back {
         width: 100%;
