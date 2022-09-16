@@ -1478,13 +1478,13 @@ h1 {
         justify-content: center;
     }
     .col .front {
-        width: 100%;
-        min-height: 130px;
+        width: 90%;
+        min-height: 160px;
         font-size: 1.3rem;
     }
     .col {
-        width: calc(30% - 5rem);
-        margin: 3rem;
+        width: calc(30% - 0rem);
+        margin: 1rem;
       }
     .back {
         width: 100%;
@@ -1516,10 +1516,7 @@ h1 {
         width: 14rem;
         display: flex;
     }
-    .wrapper .cols {
-        margin: 1rem;
-        padding: 2rem;
-    }
+    
     .deal {
         text-align: center;
     }
