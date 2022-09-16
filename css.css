@@ -1477,7 +1477,7 @@ h1 {
         justify-content: center;
     }
     .col .front {
-        min-height: 160px;
+        min-height: 145px;
         font-size: 1.3rem;
     }
     .wrapper .cols {
