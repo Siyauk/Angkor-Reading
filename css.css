@@ -1414,13 +1414,16 @@ h1 {
         box-shadow: 1px 2px 5px 0 #e2cb70;
     }
     .home .stand {
-        padding-bottom: 18rem;
+        padding-bottom: 24rem;
       }
     .home .stand img {
         width: 100%;
         padding: 2rem 2rem;
         border-radius: 5rem;
         position: relative;
+      }
+    .home .row-self .books-slider {
+        margin-top: -26rem;
       }
     .home .row-self .books-slider1 {
         margin-top: -20rem;
