@@ -1414,7 +1414,7 @@ h1 {
         box-shadow: 1px 2px 5px 0 #e2cb70;
     }
     .home .stand {
-        padding-bottom: 24rem;
+        padding-bottom: 20rem;
       }
     .home .stand img {
         width: 100%;
@@ -1426,7 +1426,7 @@ h1 {
         margin-top: -26rem;
       }
     .home .row-self .books-slider1 {
-        margin-top: -26rem;
+        margin-top: -22rem;
       }
     .arrivals .arrivals-slider .image img{
         background-repeat: no-repeat;
@@ -1453,9 +1453,6 @@ h1 {
     .newsletter form {
         margin-left: 0;
         max-width: 100%;
-    }
-    .books-slider a img {
-        height: 15rem;
     }
     .wrapper-business {
         margin-top: -5rem;
