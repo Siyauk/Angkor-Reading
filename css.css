@@ -906,9 +906,9 @@ h1 {
 
 .back {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: 1rem;
+    left: 1rem;
+    width: 88%;
     height: 100px;
 }
 
