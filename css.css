@@ -1408,7 +1408,7 @@ h1 {
         height: 40rem;
     }
     .home .row-self .books-slider1 a img {
-        height: 20rem;
+        height: 25rem;
         margin-bottom: 5rem;
         padding-bottom: 0rem;
         box-shadow: 1px 2px 5px 0 #e2cb70;
@@ -1426,7 +1426,7 @@ h1 {
         margin-top: -26rem;
       }
     .home .row-self .books-slider1 {
-        margin-top: -20rem;
+        margin-top: -26rem;
       }
     .arrivals .arrivals-slider .image img{
         background-repeat: no-repeat;
