@@ -1481,11 +1481,6 @@ h1 {
         min-height: 160px;
         font-size: 1.3rem;
     }
-    .col {
-        width: 15rem;
-        height: 30rem;
-        margin: 1rem;
-      }
     .wrapper .cols {
         margin: 1rem;
     }
