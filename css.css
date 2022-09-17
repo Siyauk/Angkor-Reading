@@ -1435,7 +1435,10 @@ h1 {
         width: auto;
         background-size: contain;
     }
-
+    .btn {
+        margin: 0rem 25rem;
+        padding: .9rem 4rem;
+    }
     .blogs .blogs-slider .box .image {
         height: 45rem;
         width: 45%;
