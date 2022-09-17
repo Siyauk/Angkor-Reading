@@ -1435,7 +1435,7 @@ h1 {
         width: auto;
         background-size: contain;
     }
-    .arrivals .btn {
+    .arrivals .arrivals-slider .btn {
         margin: 0rem 25rem;
         padding: .9rem 4rem;
     }
