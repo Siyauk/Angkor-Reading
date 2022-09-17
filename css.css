@@ -1436,8 +1436,8 @@ h1 {
         background-size: contain;
     }
     .arrivals .arrivals-slider .btn {
-        margin: 2rem 22rem 2rem 22rem;
-        padding: 1rem 4rem 1rem 4rem;
+        margin: 2rem 0rem 2rem 18rem;
+        padding: 1rem 5rem;
     }
     .blogs .blogs-slider .box .image {
         height: 45rem;
