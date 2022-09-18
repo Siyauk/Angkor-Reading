@@ -1394,10 +1394,6 @@ h1 {
     .deal {
         text-align: center;
     }
-    .swiper-button-next,
-    .swiper-button-prev {
-        display: none;
-    }
     .footer .box-container .box{
         width:17rem;
     }
@@ -1504,8 +1500,6 @@ h1 {
     .home .comment-box textarea{
         width:40rem;
       }
-      input, select, textarea {
-        font-size: 16px;}
 }
 @media (max-width:450px) {
     html {
