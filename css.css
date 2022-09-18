@@ -955,110 +955,6 @@ h1 {
     transform-style: preserve-3d;
 }
 
-
-/* audiobooks*/
-
-.audiobook-top {
-    overflow: auto;
-    margin: 2rem 10rem;
-    padding: 0rem 2rem;
-    background: url(image/Ankor_Wat_temple.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 1rem;
-    box-shadow: 1px 2px 5px 0 #e2cb70;
-}
-
-.audiobook {
-    margin-top: 40rem;
-    margin-bottom: 2rem;
-    float: left;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
-}
-
-.audiobook img {
-    height: 20rem;
-    width: 12.8rem;
-    border-radius: 1rem;
-    box-shadow: 1px 2px 5px 0 #e2cb70;
-    margin: 2rem 0.5rem;
-}
-
-.audiobook:hover img {
-    transform: scale(.9);
-}
-
-.content-audiobook h3 {
-    color: #000;
-    font-size: 3.5rem;
-    text-align: center;
-}
-
-.content-audiobook p {
-    color: var(--light-color);
-    font-size: 2rem;
-    text-align: center;
-}
-
-.audiobook .click-listen a {
-    display: block;
-    text-align: center;
-    margin: 0rem 1rem;
-    margin-top: -1rem;
-}
-
-.listen {
-    display: inline-block;
-    padding: .9rem 3rem;
-    border-radius: .5rem;
-    color: #fff;
-    background: var(--green);
-    font-size: 1.7rem;
-}
-
-.listen:hover {
-    background: var(--dark-color);
-}
-
-
-/*recommended-listen*/
-
-.audiobook-top1 {
-    overflow: auto;
-    margin: 2rem 10rem;
-    padding: 0rem 2rem;
-    border-radius: 1rem;
-    box-shadow: 1px 2px 5px 0 #ccc29c;
-}
-
-.audiobook1 {
-    margin-bottom: 2rem;
-    float: left;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
-}
-
-.audiobook1 img {
-    height: 20rem;
-    width: 12.8rem;
-    border-radius: 1rem;
-    box-shadow: 1px 2px 5px 0 #e2cb70;
-    margin: 2rem 0.5rem;
-}
-
-.audiobook1:hover img {
-    transform: scale(.9);
-}
-
-.audiobook1 .click-listen a {
-    display: block;
-    text-align: center;
-    margin: 0rem 1rem;
-    margin-top: -1rem;
-}
-
-
 /*  cambodian author */
 
 .author {
@@ -1494,27 +1390,7 @@ h1 {
         text-align: center;
         margin: 0.5rem 0rem;
         padding: 1rem 1rem;
-    }
-    .audiobook-top {
-        background-position: center;
-        max-height: 60rem;
-        margin: 0rem 1rem;
-    }
-    .audiobook img {
-        margin-top: -2rem;
-        height: 15rem;
-        width: 11rem;
-        display: flex;
-    }
-    .audiobook-top1 {
-        margin: 1rem;
-        display: inherit;
-    }
-    .audiobook1 img {
-        width: 14rem;
-        display: flex;
-    }
-    
+    }    
     .deal {
         text-align: center;
     }
