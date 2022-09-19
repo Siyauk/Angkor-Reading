@@ -259,28 +259,6 @@ var swiper = new Swiper(".blogs-slider", {
     },
 });
 
-var swiper = new Swiper(".featured-slider-business ", {
-    spaceBetween: 10,
-    grabCursor: true,
-    loop: true,
-    centeredSlides: true,
-    autoplay: {
-        delay: 9500,
-        disableOnInteraction: false,
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 0,
-        },
-        428: {
-            slidesPerView: 5,
-        },
-        768: {
-            slidesPerView: 9,
-        },
-    },
-});
-
 function myFunction() {
     var input, filter, ul, li, a, i,h3;
     input = document.getElementById("search-box");
@@ -297,39 +275,7 @@ function myFunction() {
     }
 }
 
-var swiper = new Swiper(".details-a1", {
-    spaceBetween: 10,
-    grabCursor: true,
-    loop: true,
-    centeredSlides: false,
-    autoplay: {
-        delay: 6500,
-        disableOnInteraction: false,
-    },
-    breakpoints: {
-        360: {
-            slidesPerView: 3,
-        },
-        375: {
-            slidesPerView: 3,
-        },
-        428: {
-            slidesPerView: 3,
-        },
-        800: {
-            slidesPerView: 3,
-        },
-        810:{
-            slidesPerView: 5,
-        },
-        900:{slidesPerView: 5,
-        },
-        1280:{slidesPerView: 7,
-        },
-    },
-});
 /*search-list*/
-
   
 var UL = document.getElementById("myUL");
 // hilde the list by default
