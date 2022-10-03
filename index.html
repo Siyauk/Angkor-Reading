@@ -78,9 +78,19 @@
     <div class="login-form-container">
 
         <div id="close-login-btn" class="fas fa-times"></div>
-           <form action="project/login.php" method="post" autocomplete="off">
-                <h3>welcome to angkor reading</h3>
-                <p>sign in to download</p>
+           <form action="login.php" method="post" autocomplete="off">
+               <h3>welcome to angkor reading</h3>
+               <p>sign in to download</p>
+		<label>Email_Address : </label> 
+		<input type="Text" placeholder="Enter Email" name="Email" required ><br><br>
+		<label>Phone_Number : </label> 
+		<input type="Phonenumber" placeholder="Enter Ph.No." name="Phonenumber" required ><br><br>
+		<label>Password : </label> 
+		<input type="Password" placeholder="Enter Password." name="Password" required >
+		<br><br>
+		<input type="submit" value="Submit">
+        
+                
                 <a href="login.php" type="sign_in" class="btn">login</a>
                 <a href="register.php" type="register" class="btn">register</a>
                 <a href="reset_password.php" type="reset" class="btn">forgot password?</a>
