@@ -47,23 +47,12 @@
 <?php 
     session_start(); 
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Login System</title>
-    <link rel="stylesheet" href="https://github.com/Siyauk/Angkor-Reading.git" type="text/css">
-</head>
-<body>
     <nav>
         <ul>
             <a href="index.php"><li>Home</li></a>
             <?php if(!isset($_SESSION['usersId'])) : ?>
                 <a href="register/signup.php"><li>Sign Up</li></a>
-                <a href="https://Siyauk.github.io/Angkor-Reading/tree/main/register/signup.php"><li>Login</li></a>
+                <a href="https://Siyauk.github.io/Angkor-Reading/main/register/signup.php"><li>Login</li></a>
             <?php else: ?>
                 <a href="https://github.com/Siyauk/Angkor-Reading.git/controllers/Users.php?q=logout"><li>Logout</li></a>
             <?php endif; ?>
