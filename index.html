@@ -41,7 +41,7 @@
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
                 <div id="login-btn">login</div>
-                <div id="signup-btn" href="signup.php">sign up</div>
+                <div id="signup-btn">sign up</div>
             </div>
 
         </div>
@@ -92,33 +92,7 @@
 		        <a href="signup.php">sign up</a>
            </form>
     </div>
-    <?php 
-    include_once 'header.php';
-    include_once './helpers/session_helper.php';
-?>
-
-    <h1 class="header">Please Signup</h1>
-
-    <?php flash('register') ?>
-
-    <form method="post" action="./controllers/Users.php">
-        <input type="hidden" name="type" value="register">
-        <input type="text" name="usersName" 
-        placeholder="Full name...">
-        <input type="text" name="usersEmail" 
-        placeholder="Email...">
-        <input type="text" name="usersUid" 
-        placeholder="Username...">
-        <input type="password" name="usersPwd" 
-        placeholder="Password...">
-        <input type="password" name="pwdRepeat" 
-        placeholder="Repeat password">
-        <button type="submit" name="submit">Sign Up</button>
-    </form>
     
-<?php 
-    include_once 'footer.php'
-?>
     <div class="signup-form-container">
         <div id="close-signup-btn">login</div>
         <form action="signup.php" method="post" id="signup" novalidate>
