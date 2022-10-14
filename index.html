@@ -77,7 +77,8 @@
     <!-- login form  -->
 
     <div class="login-form-container">
-        <div id="close-login-btn">login</div>
+        <div id="close-login-btn">login
+        </div>
            <form action="login.php" method="post" autocomplete="off">
                 <h3>welcome to angkor reading</h3>
                 <p>Enter username</p>
@@ -88,11 +89,36 @@
 		        <input type="submit" value="login">
 		        <hr><br>
 		        <p>Already have an account?</p>
-                
 		        <a href="signup.php">sign up</a>
            </form>
-        </div>
     </div>
+    <?php 
+    include_once 'header.php';
+    include_once './helpers/session_helper.php';
+?>
+
+    <h1 class="header">Please Signup</h1>
+
+    <?php flash('register') ?>
+
+    <form method="post" action="./controllers/Users.php">
+        <input type="hidden" name="type" value="register">
+        <input type="text" name="usersName" 
+        placeholder="Full name...">
+        <input type="text" name="usersEmail" 
+        placeholder="Email...">
+        <input type="text" name="usersUid" 
+        placeholder="Username...">
+        <input type="password" name="usersPwd" 
+        placeholder="Password...">
+        <input type="password" name="pwdRepeat" 
+        placeholder="Repeat password">
+        <button type="submit" name="submit">Sign Up</button>
+    </form>
+    
+<?php 
+    include_once 'footer.php'
+?>
     <div class="signup-form-container">
         <div id="close-signup-btn">login</div>
         <form action="signup.php" method="post" id="signup" novalidate>
