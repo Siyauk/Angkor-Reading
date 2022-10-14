@@ -13,16 +13,6 @@ document.querySelector('#login-btn').onclick = () => {
 document.querySelector('#close-login-btn').onclick = () => {
     loginForm.classList.remove('active');
 }
-
-let signupForm = document.querySelector('.signup-form-container');
-
-document.querySelector('#signup-btn').onclick = () => {
-    signupForm.classList.toggle('active');
-}
-
-document.querySelector('#close-signup-btn').onclick = () => {
-    signupForm.classList.remove('active');
-}
 function myFunction1() {
     var dots = document.getElementById("dots1");
     var moreText = document.getElementById("more1");
