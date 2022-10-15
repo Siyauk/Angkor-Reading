@@ -43,23 +43,6 @@
                 <div id="login-btn">login</div>
                 <div id="signup-btn">sign up</div>
             </div>
-
-<?php 
-    session_start(); 
-?>
-    <nav>
-        <ul>
-            <a href="index.php"><li>Home</li></a>
-            <?php if(!isset($_SESSION['usersId'])) : ?>
-                <a href="register/signup.php"><li>Sign Up</li></a>
-                <a href="https://github.com/Siyauk/Angkor-Reading/localhost/register/signup.php"><li>Login</li></a>
-            <?php else: ?>
-                <a href="https://github.com/Siyauk/Angkor-Reading.git/controllers/Users.php?q=logout"><li>Logout</li></a>
-            <?php endif; ?>
-        </ul>
-    </nav>
-        </div>
-
         <div class="header-2">
             <nav class="navbar">
                 <a href="index.html">HOME</a>
@@ -93,7 +76,7 @@
     <div class="login-form-container">
         <div id="close-login-btn">login
         </div>
-           <form action="login.php" method="post" autocomplete="off">
+           <form action="http://localhost/register/login.php" method="post" autocomplete="off">
                 <h3>welcome to angkor reading</h3>
                 <p>Enter username</p>
 		        <input type="Text" class="btn" placeholder="Enter Username" name="Username" required ><br><br>
@@ -103,7 +86,7 @@
 		        <input type="submit" value="login">
 		        <hr><br>
 		        <p>Already have an account?</p>
-		        <a href="signup.php">sign up</a>
+		        <a href="#signup">sign up</a>
            </form>
     </div>
 
