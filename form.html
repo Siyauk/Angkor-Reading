@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Angkor Reading</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+<div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+    <form action="login.php" method="post">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="email" class="box" placeholder="enter your email" id="email">
+        <span>password</span>
+        <input type="password" name="password" class="box" placeholder="enter your password" id="password>
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="reset-password.php">click here</a></p>
+            <p>don't have an account ? <a href="signup.php">create one</a></p>
+        </div>
+    </form>
+</div>
+</body>
+</html>
