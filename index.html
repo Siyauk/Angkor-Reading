@@ -74,12 +74,24 @@
     </nav>
 
     <!-- login form  -->
-
     <div class="login-form-container">
 
         <div id="close-login-btn" class="fas fa-times"></div>
-           <form action="https://docs.google.com/forms/d/e/1FAIpQLSdufVtwGPOeasFnWca_xWlc3UFlx2B5BUy09_DZkNbt71U6_g/viewform?usp=sf_link" method="post" autocomplete="off">
-               </form>
+
+        <form action="login.php" method="post">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="email" class="box" placeholder="enter your email" id="email">
+            <span>password</span>
+            <input type="password" name="password" class="box" placeholder="enter your password" id="password>
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="reset-password.php">click here</a></p>
+            <p>don't have an account ? <a href="signup.php">create one</a></p>
+        </form>
     </div>
 
     <!-- home section starts  -->
