@@ -270,11 +270,12 @@ section {
 }
 
 .login-form-container form span {
-    display: block;
     font-size: 1.5rem;
     padding-top: 1rem;
 }
-
+.login-form-container form i{
+    font-size: 2rem;
+}
 .login-form-container form .box {
     width: 100%;
     margin: .7rem 0;
@@ -291,12 +292,6 @@ section {
     align-items: center;
     gap: .5rem;
     padding: 1rem 0;
-}
-
-.login-form-container form .checkbox label {
-    font-size: 1.5rem;
-    color: var(--light-color);
-    cursor: pointer;
 }
 
 .login-form-container form .btn {
